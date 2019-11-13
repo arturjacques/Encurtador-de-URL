@@ -1,0 +1,9 @@
+<h1>EncurtaBR</h1>
+<p>Olá {{request.user}}</p>
+<p>Seja bem vindo a plataforma para encurtar URLs de Sites.
+Digite a URL a baixo e clique em OK para encurtar.</p>
+<form action="/URL/" method="post">
+    <label for="URL">URL: </label>
+    <input id="URL" type="text" name="" value="{{ current_name }}">
+    <input type="submit" value="OK">
+</form>
