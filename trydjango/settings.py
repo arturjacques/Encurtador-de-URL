@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #apps de outras pessoas ou meus
-    'encurtar',
     'pages',
+    'encurtador',
 ]
 
 MIDDLEWARE = [

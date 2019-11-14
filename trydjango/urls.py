@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from pages.views import home_view
-from pages.views import entrada_view
+from encurtador.views import criar_link_view
 
 urlpatterns = [
     path('home', home_view, name='home'),
     path('', home_view, name='home'),
-    path('entrada',entrada_view, name='entrada'),
+    path('entrada',criar_link_view, name='entrada'),
     path('admin/', admin.site.urls),
 ]
