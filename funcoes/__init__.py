@@ -1,6 +1,7 @@
 import requests
 import sqlite3
 
+pathdb = 'db/users'
 
 def verificacao_site(link):
     try:
@@ -11,8 +12,7 @@ def verificacao_site(link):
         return True
 
 
-def criar_shorturl(link):
-    pathdb = 'db/users'
+def criar_shorturl(link,site):
 
     # Conectando ao banco de dados
     conn = sqlite3.connect(pathdb)
@@ -28,18 +28,16 @@ def criar_shorturl(link):
     LIMIT 1;
     """)
 
-    if cursor.fetchall() != []:
-        a = cursor.fetchall()[0] + 1
-    elif cursor.fetchall() == []:
-        a = 0
-
-    a = conversor(a)
+    for i in cursor.fetchall():
+        a=i[0]+1
 
     # Criando a url com o último valor da sequência +1
+    a = conversor(a)
 
     # Fechando banco de dados
     conn.close()
 
+    return site +'/'+a
 
 def conversor(a):
     numeros = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -57,9 +55,16 @@ def conversor(a):
     return convertido
 
 
-def post(link):
+def post(shortUrl,user,link_original):
     # cadastra uma nova URL no sistema
-    pass
+    conn = sqlite3.connect(pathdb)
+    cursor = conn.cursor()
+    cursor.execute("""
+    INSERT INTO cadastro (hits,nome,shortUrl,url)
+    VALUES (?,?,?,?)
+    """, (int(0), str(user),str(shortUrl),str(link_original)))
+    conn.commit()
+    conn.close()
 
 
 def stats():

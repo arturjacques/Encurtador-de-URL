@@ -1,12 +1,14 @@
 from django.shortcuts import render
 from funcoes import verificacao_site
 from funcoes import criar_shorturl
-
+from funcoes import post
+from django.contrib.sites.models import Site
 
 # Create your views here.
 def criar_link_view(request):
     #inicializando variável
     a=False
+    host=request.get_host()
     #variável responsável pelas informações da tela
     context={}
     #verificação se o site existe
@@ -29,7 +31,8 @@ def criar_link_view(request):
         pass
     #Criar nova URL
     if a:
-        criar_shorturl(linki)
-        pass
+        shorturl=criar_shorturl(linki,request.get_host())
+    #Cadastrar no banco de dados
+        post(shorturl,request.user,linki)
 
     return render(request, "entrada.html", context)
