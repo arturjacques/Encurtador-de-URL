@@ -1,12 +1,12 @@
 import requests
 
-def encurtar(user,link):
+def verificacao_site(link):
     try:
         a = requests.get(link)
     except Exception:
-        return 'Erro 404 Página não encontrada'
+        return False
     else:
-        return 'página encontrada'
+        return True
 
 def post(link):
     #cadastra uma nova URL no sistema

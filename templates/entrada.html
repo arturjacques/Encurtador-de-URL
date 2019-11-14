@@ -3,7 +3,10 @@
 <p>Seja bem vindo a plataforma para encurtar URLs de Sites.
 Digite a URL a baixo e clique em OK para encurtar.</p>
 
-<form action='/entrada' method="POST">{% csrf_token %}
+<form method="POST">{% csrf_token %}
     <input type="text" name="url" placeholder="Seu URL"/>
     <input type="submit" value='OK' />
 </form>
+<p>
+{{ msg1 }}
+</p>
