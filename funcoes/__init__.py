@@ -66,7 +66,9 @@ def conversor(a):
 
 
 def post(shortUrl,user,link_original):
-    # cadastra uma nova URL no sistema
+    #criar função para redirecionar
+    criar_funcao(shortUrl,link_original)
+    #cadastra uma nova URL no sistema
     conn = sqlite3.connect(pathdb)
     cursor = conn.cursor()
     cursor.execute("""
@@ -75,6 +77,21 @@ def post(shortUrl,user,link_original):
     """, (int(0), str(user),str(shortUrl),str(link_original)))
     conn.commit()
     conn.close()
+
+def criar_funcao(shortUrl,url):
+    html=f"""\"\"\"
+<h1>
+301 Redirect <br>
+Location:
+<meta http-equiv="refresh" content="0; URL='{url}'"/>
+</h1>
+    \"\"\""""
+    texto=f"""
+def {shortUrl}_view(request):
+    return HttpResponse({html})
+    """
+    with open('shorturl/views.py','a') as f:
+        f.write(texto)
 
 
 def get_stats():
@@ -101,12 +118,6 @@ def get_users_stats(user):
     Order BY hits asc;
     """)
     b=cursor.fetchall()[:]
-    texto=""""""
-    for i in cursor.fetchall():
-        for j in i:
-            texto=texto+str(j) +"   "
-        texto=texto+"""
-        """
 
     # Fechando banco de dados
     conn.close()
