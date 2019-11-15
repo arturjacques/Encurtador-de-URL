@@ -28,5 +28,3 @@ except:
 
 #Fechando banco de dados
 conn.close()
-
-print('Init trydjango foi iniciado')

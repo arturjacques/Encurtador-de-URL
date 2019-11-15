@@ -1,5 +1,6 @@
 import requests
 import sqlite3
+import json
 
 pathdb = 'db/users'
 
@@ -12,7 +13,16 @@ def verificacao_site(link):
         return True
 
 
-def criar_shorturl(link,site):
+def criar_shorturl(host):
+    """
+    Essa função recebe o host do site e é capaz de criar um URL único.
+    Para que não haja conflito entre as URLS criadas por essa função e URLS do site
+    todas as URLS destinadas ao controle do site devem conter um ponto final
+    uma vez que esse código pode escrever qualquer combinação de números e letras.
+    Porém não utiliza caracteres especiais.
+
+    """
+
 
     # Conectando ao banco de dados
     conn = sqlite3.connect(pathdb)
@@ -37,7 +47,7 @@ def criar_shorturl(link,site):
     # Fechando banco de dados
     conn.close()
 
-    return site +'/'+a
+    return host +'/'+a+'.'
 
 def conversor(a):
     numeros = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -67,15 +77,40 @@ def post(shortUrl,user,link_original):
     conn.close()
 
 
-def stats():
+def get_stats():
     # retorna estatisticas globais do sistema
     pass
 
 
-def users_stats(userid):
-    # retorna as estatisticas das URLS de um usuário
-    pass
+def get_users_stats(user):
+    """
+    retorna as estatisticas das URLS de um usuário
+    """
+    # Conectando ao banco de dados
+    conn = sqlite3.connect(pathdb)
 
+    # Definindo cursor
+    cursor = conn.cursor()
+
+    # Achando o último valor
+    cursor.execute(f"""
+    SELECT *
+    FROM cadastro 
+    WHERE 
+    nome='{str(user)}'
+    Order BY hits asc;
+    """)
+    b=cursor.fetchall()[:]
+    texto=""""""
+    for i in cursor.fetchall():
+        for j in i:
+            texto=texto+str(j) +"   "
+        texto=texto+"""
+        """
+
+    # Fechando banco de dados
+    conn.close()
+    return b
 
 def stats_url(urlID):
     # retorna as estatisticas de uma URL específica

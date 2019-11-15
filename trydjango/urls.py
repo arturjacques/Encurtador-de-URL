@@ -18,9 +18,14 @@ from django.urls import path
 from pages.views import home_view
 from encurtador.views import criar_link_view
 
+"""
+Todos os URLs destinados para o sistema devem possuir um carácter especial
+para que não seja criado um shortURL com o mesmo endereço de uma página do sistema.
+"""
+
 urlpatterns = [
-    path('home', home_view, name='home'),
+    path('home.', home_view, name='home'),
     path('', home_view, name='home'),
-    path('entrada',criar_link_view, name='entrada'),
-    path('admin/', admin.site.urls),
+    path('entrada.',criar_link_view, name='entrada'),
+    path('admin./', admin.site.urls),
 ]
