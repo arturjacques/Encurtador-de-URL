@@ -37,8 +37,8 @@ def criar_link_view(request):
         pass
     #Criar nova URL
     if a:
-        shorturl=criar_shorturl(request.get_host())
+        shorturl=criar_shorturl(host)
     #Cadastrar no banco de dados
-        post(shorturl,request.user,linki)
+        post(shorturl,request,linki)
 
     return render(request, "entrada.html", context)

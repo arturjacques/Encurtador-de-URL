@@ -1,5 +1,6 @@
 import requests
 import sqlite3
+#from shorturl.views import criar_path
 import json
 
 pathdb = 'db/users'
@@ -37,7 +38,7 @@ def criar_shorturl(host):
     Order BY seq asc
     LIMIT 1;
     """)
-
+    a=0
     for i in cursor.fetchall():
         a=i[0]+1
 
@@ -47,7 +48,7 @@ def criar_shorturl(host):
     # Fechando banco de dados
     conn.close()
 
-    return host +'/'+a+'.'
+    return host +'/'+a
 
 def conversor(a):
     numeros = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -65,34 +66,37 @@ def conversor(a):
     return convertido
 
 
-def post(shortUrl,user,link_original):
+def post(shortUrl,request,link_original):
     #criar função para redirecionar
-    criar_funcao(shortUrl,link_original)
+    criar_funcao(shortUrl,link_original,request.get_host())
     #cadastra uma nova URL no sistema
     conn = sqlite3.connect(pathdb)
     cursor = conn.cursor()
     cursor.execute("""
     INSERT INTO cadastro (hits,nome,shortUrl,url)
     VALUES (?,?,?,?)
-    """, (int(0), str(user),str(shortUrl),str(link_original)))
+    """, (int(0), str(request.user),str(shortUrl),str(link_original)))
     conn.commit()
     conn.close()
 
-def criar_funcao(shortUrl,url):
+def criar_funcao(shortUrl,url,host):
+    final_url=shortUrl.replace(host,'')
+    final_url=final_url.replace('/','')
+    funcao='view_'+final_url
     html=f"""\"\"\"
 <h1>
 301 Redirect <br>
-Location:
+Location:{url}
 <meta http-equiv="refresh" content="0; URL='{url}'"/>
 </h1>
     \"\"\""""
     texto=f"""
-def {shortUrl}_view(request):
+def {funcao}(request):
     return HttpResponse({html})
     """
     with open('shorturl/views.py','a') as f:
         f.write(texto)
-
+    #criar_path(funcao,final_url)
 
 def get_stats():
     # retorna estatisticas globais do sistema

@@ -29,5 +29,11 @@ urlpatterns = [
     path('', home_view, name='home'),
     path('entrada.',criar_link_view, name='entrada'),
     path('admin./', admin.site.urls),
-    path('oi', short.oi_view)
+    path('oi', short.oi_view),
 ]
+
+urlpatterns_secundario=[
+    path('5', short.view_5)
+]
+
+urlpatterns = urlpatterns+urlpatterns_secundario
