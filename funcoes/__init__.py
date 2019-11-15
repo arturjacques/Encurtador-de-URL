@@ -1,6 +1,5 @@
 import requests
 import sqlite3
-#from shorturl.views import criar_path
 import json
 
 pathdb = 'db/users'
@@ -96,7 +95,14 @@ def {funcao}(request):
     """
     with open('shorturl/views.py','a') as f:
         f.write(texto)
-    #criar_path(funcao,final_url)
+        f.close()
+    criar_path(funcao,final_url)
+
+def criar_path(funcao,final_url):
+    texto=f"""path('{final_url}', short.{funcao}),"""
+    with open('shorturl/path_functions.py','a') as f:
+        f.write(texto)
+        f.close()
 
 def get_stats():
     # retorna estatisticas globais do sistema

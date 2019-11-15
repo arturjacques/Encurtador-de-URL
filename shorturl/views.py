@@ -81,3 +81,39 @@ Location:http://google.com
 </h1>
     """)
     
+def view_9(request):
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+    
+def view_a(request):
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+    
+def view_b(request):
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/?utm_campaign=2071682281&utm_medium=cpc&utm_source=google&utm_term=linx&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7BWXkMlpsSF38hivIZhHrNswmWY2ZYnsfQyWJTua4wJI4CYdXcemrQaAlexEALw_wcB
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/?utm_campaign=2071682281&utm_medium=cpc&utm_source=google&utm_term=linx&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7BWXkMlpsSF38hivIZhHrNswmWY2ZYnsfQyWJTua4wJI4CYdXcemrQaAlexEALw_wcB'"/>
+</h1>
+    """)
+    
+def view_c(request):
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/?utm_campaign=2071682281&utm_medium=cpc&utm_source=google&utm_term=linx&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7BWXkMlpsSF38hivIZhHrNswmWY2ZYnsfQyWJTua4wJI4CYdXcemrQaAlexEALw_wcB
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/?utm_campaign=2071682281&utm_medium=cpc&utm_source=google&utm_term=linx&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7BWXkMlpsSF38hivIZhHrNswmWY2ZYnsfQyWJTua4wJI4CYdXcemrQaAlexEALw_wcB'"/>
+</h1>
+    """)
+    

@@ -18,6 +18,7 @@ from django.urls import path
 from pages.views import home_view
 from encurtador.views import criar_link_view
 import shorturl.views as short
+import shorturl.path_functions
 
 """
 Todos os URLs destinados para o sistema devem possuir um carácter especial
@@ -32,8 +33,6 @@ urlpatterns = [
     path('oi', short.oi_view),
 ]
 
-urlpatterns_secundario=[
-    path('5', short.view_5)
-]
+urlpatterns_secundario = shorturl.path_functions.urlpatterns
 
-urlpatterns = urlpatterns+urlpatterns_secundario
+urlpatterns = urlpatterns+list(urlpatterns_secundario)
