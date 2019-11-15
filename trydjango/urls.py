@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path
 from pages.views import home_view
 from encurtador.views import criar_link_view
-import shorturl.views as short
 import shorturl.path_functions
 
 """
@@ -30,7 +29,6 @@ urlpatterns = [
     path('', home_view, name='home'),
     path('entrada.',criar_link_view, name='entrada'),
     path('admin./', admin.site.urls),
-    path('oi', short.oi_view),
 ]
 
 urlpatterns_secundario = shorturl.path_functions.urlpatterns

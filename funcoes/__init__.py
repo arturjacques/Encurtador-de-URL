@@ -4,6 +4,7 @@ import json
 
 pathdb = 'db/users'
 
+
 def verificacao_site(link):
     try:
         a = requests.get(link)
@@ -23,7 +24,6 @@ def criar_shorturl(host):
 
     """
 
-
     # Conectando ao banco de dados
     conn = sqlite3.connect(pathdb)
 
@@ -31,15 +31,16 @@ def criar_shorturl(host):
     cursor = conn.cursor()
 
     # Achando o último valor
-    cursor.execute(f"""
-    SELECT seq 
-    FROM sqlite_sequence 
-    Order BY seq asc
-    LIMIT 1;
-    """)
-    a=0
-    for i in cursor.fetchall():
-        a=i[0]+1
+    try:
+        cursor.execute(f"""
+        SELECT COUNT(id)
+        FROM cadastro 
+        """)
+        a = int(cursor.fetchall()[0][0])+ 1
+    except:
+        print('ERRO ao verificar o tamanho do banco de dados em criar_shorturl em funções init')
+        a = 1
+
 
     # Criando a url com o último valor da sequência +1
     a = conversor(a)
@@ -47,7 +48,8 @@ def criar_shorturl(host):
     # Fechando banco de dados
     conn.close()
 
-    return host +'/'+a
+    return a
+
 
 def conversor(a):
     numeros = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -65,44 +67,50 @@ def conversor(a):
     return convertido
 
 
-def post(shortUrl,request,link_original):
-    #criar função para redirecionar
-    criar_funcao(shortUrl,link_original,request.get_host())
-    #cadastra uma nova URL no sistema
+def post(shortUrl, request, link_original):
+    # criar função para redirecionar
+    criar_funcao(shortUrl, link_original, request.get_host())
+    # cadastra uma nova URL no sistema
     conn = sqlite3.connect(pathdb)
     cursor = conn.cursor()
     cursor.execute("""
-    INSERT INTO cadastro (hits,nome,shortUrl,url)
-    VALUES (?,?,?,?)
-    """, (int(0), str(request.user),str(shortUrl),str(link_original)))
+    INSERT INTO cadastro (id,hits,nome,shortUrl,url)
+    VALUES (?,?,?,?,?)
+    """, (shortUrl,int(0), str(request.user), str(request.get_host()+'/'+shortUrl), str(link_original)))
     conn.commit()
     conn.close()
 
-def criar_funcao(shortUrl,url,host):
-    final_url=shortUrl.replace(host,'')
-    final_url=final_url.replace('/','')
-    funcao='view_'+final_url
-    html=f"""\"\"\"
+
+def criar_funcao(shortUrl, url, host):
+    funcao = 'view_' + shortUrl
+    html = f"""\"\"\"
 <h1>
 301 Redirect <br>
 Location:{url}
 <meta http-equiv="refresh" content="0; URL='{url}'"/>
 </h1>
     \"\"\""""
-    texto=f"""
+    texto = f"""
 def {funcao}(request):
+    funcoes.add_visita(\'{shortUrl}\')
     return HttpResponse({html})
     """
-    with open('shorturl/views.py','a') as f:
+    with open('shorturl/views.py', 'a') as f:
         f.write(texto)
         f.close()
-    criar_path(funcao,final_url)
+    criar_path(funcao, shortUrl)
 
-def criar_path(funcao,final_url):
-    texto=f"""path('{final_url}', short.{funcao}),"""
-    with open('shorturl/path_functions.py','a') as f:
+
+def criar_path(funcao, final_url):
+    texto = f"""path('{final_url}', short.{funcao}),"""
+    with open('shorturl/path_functions.py', 'a') as f:
         f.write(texto)
         f.close()
+
+
+def add_visita(identificador):
+    pass
+
 
 def get_stats():
     # retorna estatisticas globais do sistema
@@ -127,11 +135,12 @@ def get_users_stats(user):
     nome='{str(user)}'
     Order BY hits asc;
     """)
-    b=cursor.fetchall()[:]
+    b = cursor.fetchall()[:]
 
     # Fechando banco de dados
     conn.close()
     return b
+
 
 def stats_url(urlID):
     # retorna as estatisticas de uma URL específica

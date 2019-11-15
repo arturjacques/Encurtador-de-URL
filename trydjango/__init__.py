@@ -18,7 +18,7 @@ SELECT * FROM {nome_tabela};
 except:
     cursor.execute(f"""
     CREATE TABLE {nome_tabela}(
-    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    id INTEGER TEXT NOT NULL PRIMARY KEY,
     nome TEXT NOT NULL,
     hits Integer,
     url TEXT NOT NULL,
