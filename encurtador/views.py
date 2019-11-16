@@ -43,7 +43,7 @@ def criar_link_view(request):
          #   print('oi')
          #   a=False
     if a:
-        context['shorturl']='link encurtado ' + shorturl
+        context['shorturl']='link encurtado ' + request.get_host()+'/'+ shorturl
     #Cadastrar no banco de dados
         post(shorturl,request,linki)
 

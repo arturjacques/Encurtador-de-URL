@@ -17,8 +17,8 @@ def view_2(request):
     return HttpResponse("""
 <h1>
 301 Redirect <br>
-Location:http://google.com
-<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+Location:http://pudim.com
+<meta http-equiv="refresh" content="0; URL='http://pudim.com'"/>
 </h1>
     """)
     

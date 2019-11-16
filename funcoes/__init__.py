@@ -109,7 +109,16 @@ def criar_path(funcao, final_url):
 
 
 def add_visita(identificador):
-    pass
+    conn = sqlite3.connect(pathdb)
+    cursor = conn.cursor()
+    print(identificador)
+    cursor.execute(f"""
+    update cadastro
+    set hits=hits+1
+    where id={identificador}
+    """)
+    conn.commit()
+    conn.close()
 
 
 def get_stats():

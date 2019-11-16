@@ -23,10 +23,14 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="57977998-5543-46c0-9e0b-537935643d2e">
+        <schema name="main" object-types="table, index, view, constraint, dataset trigger, column" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="76cadf94-4950-47b7-a0bf-007d50226717">
+    <connection id="57977998-5543-46c0-9e0b-537935643d2e">
       <console name="Connection" type="STANDARD" schema="main" session="Main" />
     </connection>
   </component>
@@ -34,7 +38,7 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="76cadf94-4950-47b7-a0bf-007d50226717" />
+    <connection id="57977998-5543-46c0-9e0b-537935643d2e" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -59,7 +63,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="76cadf94-4950-47b7-a0bf-007d50226717" active="true">
+      <connection id="57977998-5543-46c0-9e0b-537935643d2e" active="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -74,7 +78,7 @@
           <port value="1234" />
           <database value="database" />
           <files>
-            <file path="C:\Meus Programas\git\Local\Encurtador-de-URL\db.sqlite3" schema="main" />
+            <file path="C:\Meus Programas\git\Local\Encurtador-de-URL\db\users" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
