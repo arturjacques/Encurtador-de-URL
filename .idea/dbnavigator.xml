@@ -24,23 +24,26 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="57977998-5543-46c0-9e0b-537935643d2e">
+      <connection connection-id="4ee41185-99ae-4ba9-8885-c754827621ed">
         <schema name="main" object-types="view, constraint, column, dataset trigger, table, index" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="57977998-5543-46c0-9e0b-537935643d2e">
-      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[SELECT *
-FROM cadastro
-where id=9]]></console>
+    <connection id="4ee41185-99ae-4ba9-8885-c754827621ed">
+      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[select *
+from cadastro
+
+update cadastro
+set hits=hits+1
+where id='b']]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="57977998-5543-46c0-9e0b-537935643d2e" />
+    <connection id="4ee41185-99ae-4ba9-8885-c754827621ed" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -65,7 +68,7 @@ where id=9]]></console>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="57977998-5543-46c0-9e0b-537935643d2e" active="true">
+      <connection id="4ee41185-99ae-4ba9-8885-c754827621ed" active="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -110,7 +113,7 @@ where id=9]]></console>
           <session-management value="true" />
           <ddl-file-binding value="true" />
           <database-logging value="false" />
-          <connect-automatically value="true" />
+          <connect-automatically value="false" />
           <restore-workspace value="true" />
           <restore-workspace-deep value="true" />
           <environment-type value="default" />

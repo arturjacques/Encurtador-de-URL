@@ -17,8 +17,8 @@ def view_2(request):
     return HttpResponse("""
 <h1>
 301 Redirect <br>
-Location:http://pudim.com
-<meta http-equiv="refresh" content="0; URL='http://pudim.com'"/>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
 </h1>
     """)
     
@@ -27,8 +27,8 @@ def view_3(request):
     return HttpResponse("""
 <h1>
 301 Redirect <br>
-Location:http://pudim.com
-<meta http-equiv="refresh" content="0; URL='http://pudim.com'"/>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
 </h1>
     """)
     
@@ -67,8 +67,8 @@ def view_7(request):
     return HttpResponse("""
 <h1>
 301 Redirect <br>
-Location:http://pudim.com
-<meta http-equiv="refresh" content="0; URL='http://pudim.com'"/>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
 </h1>
     """)
     
@@ -77,8 +77,8 @@ def view_8(request):
     return HttpResponse("""
 <h1>
 301 Redirect <br>
-Location:http://pudim.com
-<meta http-equiv="refresh" content="0; URL='http://pudim.com'"/>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
 </h1>
     """)
     
@@ -109,66 +109,6 @@ def view_b(request):
 301 Redirect <br>
 Location:http://google.com
 <meta http-equiv="refresh" content="0; URL='http://google.com'"/>
-</h1>
-    """)
-    
-def view_c(request):
-    funcoes.add_visita('c')
-    return HttpResponse("""
-<h1>
-301 Redirect <br>
-Location:http://google.com
-<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
-</h1>
-    """)
-    
-def view_d(request):
-    funcoes.add_visita('d')
-    return HttpResponse("""
-<h1>
-301 Redirect <br>
-Location:http://google.com
-<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
-</h1>
-    """)
-    
-def view_e(request):
-    funcoes.add_visita('e')
-    return HttpResponse("""
-<h1>
-301 Redirect <br>
-Location:http://google.com
-<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
-</h1>
-    """)
-    
-def view_f(request):
-    funcoes.add_visita('f')
-    return HttpResponse("""
-<h1>
-301 Redirect <br>
-Location:http://google.com
-<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
-</h1>
-    """)
-    
-def view_g(request):
-    funcoes.add_visita('g')
-    return HttpResponse("""
-<h1>
-301 Redirect <br>
-Location:http://pudim.com
-<meta http-equiv="refresh" content="0; URL='http://pudim.com'"/>
-</h1>
-    """)
-    
-def view_h(request):
-    funcoes.add_visita('h')
-    return HttpResponse("""
-<h1>
-301 Redirect <br>
-Location:http://facebook.com
-<meta http-equiv="refresh" content="0; URL='http://facebook.com'"/>
 </h1>
     """)
     

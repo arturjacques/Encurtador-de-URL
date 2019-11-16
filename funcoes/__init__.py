@@ -14,7 +14,7 @@ def verificacao_site(link):
         return True
 
 
-def criar_shorturl(host):
+def criar_shorturl():
     """
     Essa função recebe o host do site e é capaz de criar um URL único.
     Para que não haja conflito entre as URLS criadas por essa função e URLS do site
@@ -31,16 +31,11 @@ def criar_shorturl(host):
     cursor = conn.cursor()
 
     # Achando o último valor
-    try:
-        cursor.execute(f"""
-        SELECT COUNT(id)
-        FROM cadastro 
-        """)
-        a = int(cursor.fetchall()[0][0])+ 1
-    except:
-        print('ERRO ao verificar o tamanho do banco de dados em criar_shorturl em funções init')
-        a = 1
-
+    cursor.execute(f"""
+    SELECT COUNT(id)
+    FROM cadastro 
+    """)
+    a = int(cursor.fetchall()[0][0])+ 1
 
     # Criando a url com o último valor da sequência +1
     a = conversor(a)
@@ -70,7 +65,7 @@ def conversor(a):
 def post(request, link_original):
     # criar função para redirecionar
     #Criar nova URL
-    shortUrl=criar_shorturl(request.get_host())
+    shortUrl=criar_shorturl()
     criar_funcao(shortUrl, link_original, request.get_host())
     # cadastra uma nova URL no sistema
     conn = sqlite3.connect(pathdb)
@@ -78,7 +73,7 @@ def post(request, link_original):
     cursor.execute("""
     INSERT INTO cadastro (id,hits,nome,shortUrl,url)
     VALUES (?,?,?,?,?)
-    """, (shortUrl,int(0), str(request.user), str(request.get_host()+'/'+shortUrl), str(link_original)))
+    """, (str(shortUrl),int(0), str(request.user), str(request.get_host()+'/'+shortUrl), str(link_original)))
     conn.commit()
     conn.close()
     x={
@@ -123,7 +118,7 @@ def add_visita(identificador):
     cursor.execute(f"""
     update cadastro
     set hits=hits+1
-    where id={identificador}
+    where id='{identificador}'
     """)
     conn.commit()
     conn.close()
@@ -134,14 +129,30 @@ def get_stats():
     dados_globais=dict()
     conn = sqlite3.connect(pathdb)
     cursor = conn.cursor()
-    cursor.execute(f"""
+    cursor.execute("""
     SELECT hits
     FROM cadastro
-    where id={ID}
     """)
-    a = cursor.fetchone()
+    hits = cursor.fetchall()
+
+    soma=0
+    for i in hits:
+        soma+=i[0]
+    dados_globais['hits']=soma
+    dados_globais['urlCount']=len(hits)
+
+    cursor.execute("""
+    SELECT id
+    FROM cadastro
+    ORDER BY
+    HITS DESC
+    LIMIT 10
+    """)
+    top_ids=cursor.fetchall()
+    dados_globais['topUrls']=list()
     conn.close()
-    print(a)
+    for i in top_ids:
+        dados_globais['topUrls'].append(get_stats_id(i[0]))
     return dados_globais
 
 
@@ -177,7 +188,7 @@ def get_stats_id(ID):
     cursor.execute(f"""
     SELECT *
     FROM cadastro
-    where id={ID}
+    where id='{str(ID)}'
     """)
     a=cursor.fetchone()
     dados['id']=a[0]

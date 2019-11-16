@@ -1,4 +1,5 @@
 import funcoes
 from funcoes import printar
+from funcoes import criar_shorturl
 
-printar(funcoes.stats_id(3))
+printar(funcoes.get_stats())
