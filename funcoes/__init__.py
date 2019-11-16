@@ -67,8 +67,10 @@ def conversor(a):
     return convertido
 
 
-def post(shortUrl, request, link_original):
+def post(request, link_original):
     # criar função para redirecionar
+    #Criar nova URL
+    shortUrl=criar_shorturl(request.get_host())
     criar_funcao(shortUrl, link_original, request.get_host())
     # cadastra uma nova URL no sistema
     conn = sqlite3.connect(pathdb)
@@ -79,7 +81,14 @@ def post(shortUrl, request, link_original):
     """, (shortUrl,int(0), str(request.user), str(request.get_host()+'/'+shortUrl), str(link_original)))
     conn.commit()
     conn.close()
-
+    x={
+        'id':str(shortUrl),
+       'hits':0,
+       'url':str(link_original),
+       'shortUrl':str(request.get_host()+'/'+shortUrl)
+       }
+    y=json.dumps(x)
+    return json.dumps(x)
 
 def criar_funcao(shortUrl, url, host):
     funcao = 'view_' + shortUrl
@@ -111,7 +120,6 @@ def criar_path(funcao, final_url):
 def add_visita(identificador):
     conn = sqlite3.connect(pathdb)
     cursor = conn.cursor()
-    print(identificador)
     cursor.execute(f"""
     update cadastro
     set hits=hits+1
@@ -123,7 +131,18 @@ def add_visita(identificador):
 
 def get_stats():
     # retorna estatisticas globais do sistema
-    pass
+    dados_globais=dict()
+    conn = sqlite3.connect(pathdb)
+    cursor = conn.cursor()
+    cursor.execute(f"""
+    SELECT hits
+    FROM cadastro
+    where id={ID}
+    """)
+    a = cursor.fetchone()
+    conn.close()
+    print(a)
+    return dados_globais
 
 
 def get_users_stats(user):
@@ -142,7 +161,7 @@ def get_users_stats(user):
     FROM cadastro 
     WHERE 
     nome='{str(user)}'
-    Order BY hits asc;
+    Order BY hits desc;
     """)
     b = cursor.fetchall()[:]
 
@@ -150,11 +169,24 @@ def get_users_stats(user):
     conn.close()
     return b
 
-
-def stats_url(urlID):
+def get_stats_id(ID):
+    dados={}
     # retorna as estatisticas de uma URL específica
-    pass
-
+    conn = sqlite3.connect(pathdb)
+    cursor = conn.cursor()
+    cursor.execute(f"""
+    SELECT *
+    FROM cadastro
+    where id={ID}
+    """)
+    a=cursor.fetchone()
+    dados['id']=a[0]
+    dados['hits']=a[2]
+    dados['url']=a[3]
+    dados['shortUrl']=a[4]
+    conn.close()
+    dados=json.dumps(dados)
+    return dados
 
 def delete_url(urlID):
     # deleta URL do sistema
@@ -164,3 +196,8 @@ def delete_url(urlID):
 def create_user(usuario):
     # cria um novo usuário
     pass
+
+def printar(x):
+    print(60*'-')
+    print(x)
+    print(60*'-')

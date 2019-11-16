@@ -1,3 +1,4 @@
 import funcoes
+from funcoes import printar
 
-funcoes.criar_path('oi','view_oi')
+printar(funcoes.stats_id(3))

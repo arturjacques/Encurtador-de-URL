@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from funcoes import verificacao_site
-from funcoes import criar_shorturl
+import json
 from funcoes import post
 from funcoes import get_users_stats
+from funcoes import printar
 
 # Create your views here.
 def criar_link_view(request):
@@ -35,16 +36,10 @@ def criar_link_view(request):
     #verificação se o site já foi cadastrado no banco de dados pelo usuário
     if a:
         pass
-    #Criar nova URL
     if a:
-        #try:
-            shorturl=criar_shorturl(host)
-        #except:
-         #   print('oi')
-         #   a=False
-    if a:
-        context['shorturl']='link encurtado ' + request.get_host()+'/'+ shorturl
     #Cadastrar no banco de dados
-        post(shorturl,request,linki)
+        obj_json=post(request,linki)
+        json_dict=json.loads(obj_json)
+        context['shorturl'] = 'link encurtado ' + json_dict['shortUrl']
 
     return render(request, "entrada.html", context)

@@ -25,13 +25,15 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="57977998-5543-46c0-9e0b-537935643d2e">
-        <schema name="main" object-types="table, index, view, constraint, dataset trigger, column" />
+        <schema name="main" object-types="view, constraint, column, dataset trigger, table, index" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="57977998-5543-46c0-9e0b-537935643d2e">
-      <console name="Connection" type="STANDARD" schema="main" session="Main" />
+      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[SELECT *
+FROM cadastro
+where id=9]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
