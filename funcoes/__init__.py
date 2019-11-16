@@ -35,7 +35,7 @@ def criar_shorturl():
     SELECT COUNT(id)
     FROM cadastro 
     """)
-    a = int(cursor.fetchall()[0][0])+ 1
+    a = int(cursor.fetchall()[0][0]) + 1
 
     # Criando a url com o último valor da sequência +1
     a = conversor(a)
@@ -64,8 +64,8 @@ def conversor(a):
 
 def post(request, link_original):
     # criar função para redirecionar
-    #Criar nova URL
-    shortUrl=criar_shorturl()
+    # Criar nova URL
+    shortUrl = criar_shorturl()
     criar_funcao(shortUrl, link_original, request.get_host())
     # cadastra uma nova URL no sistema
     conn = sqlite3.connect(pathdb)
@@ -73,17 +73,18 @@ def post(request, link_original):
     cursor.execute("""
     INSERT INTO cadastro (id,hits,nome,shortUrl,url)
     VALUES (?,?,?,?,?)
-    """, (str(shortUrl),int(0), str(request.user), str(request.get_host()+'/'+shortUrl), str(link_original)))
+    """, (str(shortUrl), int(0), str(request.user), str(request.get_host() + '/' + shortUrl), str(link_original)))
     conn.commit()
     conn.close()
-    x={
-        'id':str(shortUrl),
-       'hits':0,
-       'url':str(link_original),
-       'shortUrl':str(request.get_host()+'/'+shortUrl)
-       }
-    y=json.dumps(x)
+    x = {
+        'id': str(shortUrl),
+        'hits': 0,
+        'url': str(link_original),
+        'shortUrl': str(request.get_host() + '/' + shortUrl)
+    }
+    y = json.dumps(x)
     return json.dumps(x)
+
 
 def criar_funcao(shortUrl, url, host):
     funcao = 'view_' + shortUrl
@@ -98,6 +99,7 @@ Location:{url}
 def {funcao}(request):
     funcoes.add_visita(\'{shortUrl}\')
     return HttpResponse({html})
+
     """
     with open('shorturl/views.py', 'a') as f:
         f.write(texto)
@@ -126,7 +128,7 @@ def add_visita(identificador):
 
 def get_stats():
     # retorna estatisticas globais do sistema
-    dados_globais=dict()
+    dados_globais = dict()
     conn = sqlite3.connect(pathdb)
     cursor = conn.cursor()
     cursor.execute("""
@@ -135,11 +137,11 @@ def get_stats():
     """)
     hits = cursor.fetchall()
 
-    soma=0
+    soma = 0
     for i in hits:
-        soma+=i[0]
-    dados_globais['hits']=soma
-    dados_globais['urlCount']=len(hits)
+        soma += i[0]
+    dados_globais['hits'] = soma
+    dados_globais['urlCount'] = len(hits)
 
     cursor.execute("""
     SELECT id
@@ -148,8 +150,8 @@ def get_stats():
     HITS DESC
     LIMIT 10
     """)
-    top_ids=cursor.fetchall()
-    dados_globais['topUrls']=list()
+    top_ids = cursor.fetchall()
+    dados_globais['topUrls'] = list()
     conn.close()
     for i in top_ids:
         dados_globais['topUrls'].append(get_stats_id(i[0]))
@@ -160,6 +162,7 @@ def get_users_stats(user):
     """
     retorna as estatisticas das URLS de um usuário
     """
+    listaUrl=list()
     # Conectando ao banco de dados
     conn = sqlite3.connect(pathdb)
 
@@ -168,20 +171,21 @@ def get_users_stats(user):
 
     # Achando o último valor
     cursor.execute(f"""
-    SELECT *
+    SELECT id
     FROM cadastro 
     WHERE 
     nome='{str(user)}'
     Order BY hits desc;
     """)
-    b = cursor.fetchall()[:]
-
+    for i in cursor.fetchall():
+        listaUrl.append(get_stats_id(i[0]))
     # Fechando banco de dados
     conn.close()
-    return b
+    return listaUrl
+
 
 def get_stats_id(ID):
-    dados={}
+    dados = {}
     # retorna as estatisticas de uma URL específica
     conn = sqlite3.connect(pathdb)
     cursor = conn.cursor()
@@ -190,25 +194,34 @@ def get_stats_id(ID):
     FROM cadastro
     where id='{str(ID)}'
     """)
-    a=cursor.fetchone()
-    dados['id']=a[0]
-    dados['hits']=a[2]
-    dados['url']=a[3]
-    dados['shortUrl']=a[4]
+    a = cursor.fetchone()
+    dados['id'] = a[0]
+    dados['hits'] = a[2]
+    dados['url'] = a[3]
+    dados['shortUrl'] = a[4]
     conn.close()
-    dados=json.dumps(dados)
+    dados = json.dumps(dados)
     return dados
 
-def delete_url(urlID):
+
+def delete_url(ID):
     # deleta URL do sistema
-    pass
+    # deletar no path
+    with open('shorturl/path_functions.py', 'r') as f:
+        a = f.read().replace(f",path('{ID}', short.view_{ID})","")
+        print(a)
+        with open('shorturl/path_functions.py', 'w') as f:
+            f.write(a)
+    # deletar no bd
+    return []
 
 
 def create_user(usuario):
     # cria um novo usuário
     pass
 
+
 def printar(x):
-    print(60*'-')
+    print(60 * '-')
     print(x)
-    print(60*'-')
+    print(60 * '-')
