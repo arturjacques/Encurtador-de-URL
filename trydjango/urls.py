@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from pages.views import home_view
 from encurtador.views import criar_link_view
+from encurtador.views import teste_POST
 import shorturl.path_functions
 
 """
@@ -28,6 +29,7 @@ urlpatterns = [
     path('home.', home_view, name='home'),
     path('', home_view, name='home'),
     path('entrada.',criar_link_view, name='entrada'),
+    path('teste.', teste_POST, name='teste'),
     path('admin./', admin.site.urls),
 ]
 

@@ -28,11 +28,7 @@
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="4ee41185-99ae-4ba9-8885-c754827621ed">
       <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[select *
-from cadastro
-
-update cadastro
-set hits=hits+1
-where id='b']]></console>
+from cadastro]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
