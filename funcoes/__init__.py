@@ -52,7 +52,7 @@ def conversor(a):
 
     convertido = ''
 
-    while a > base:
+    while a >= base:
         resto = a % base
         convertido = numeros[resto] + convertido
         a = int(a / base)
