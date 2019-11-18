@@ -13586,3 +13586,25 @@ Location:https://www.linx.com.br/100
     """)
 
     
+def view_jU(request):
+    funcoes.add_visita('jU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://facebook.com
+<meta http-equiv="refresh" content="0; URL='http://facebook.com'"/>
+</h1>
+    """)
+
+    
+def view_jV(request):
+    funcoes.add_visita('jV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://pudim.com.br
+<meta http-equiv="refresh" content="0; URL='http://pudim.com.br'"/>
+</h1>
+    """)
+
+    

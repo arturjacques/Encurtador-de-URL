@@ -11,14 +11,11 @@ def verificacao_site(link):
     Essa função pode ser a etapa mais lenta de toda a criação de URL.
     :return: Retorna True se o site está no ar e False se está fora do ar ou não existe
     """
-    now=time.time()
     try:
         a = requests.get(link)
     except Exception:
-        printar(time.time() - now)
         return False
     else:
-        printar(time.time() - now)
         return True
 
 
