@@ -7426,3 +7426,6163 @@ Location:https://www.google.com/search?q=6
     """)
 
     
+def view_aT(request):
+    funcoes.add_visita('aT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_aU(request):
+    funcoes.add_visita('aU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_aV(request):
+    funcoes.add_visita('aV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://pudim.com
+<meta http-equiv="refresh" content="0; URL='http://pudim.com'"/>
+</h1>
+    """)
+
+    
+def view_aW(request):
+    funcoes.add_visita('aW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_aX(request):
+    funcoes.add_visita('aX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://facebook.com
+<meta http-equiv="refresh" content="0; URL='http://facebook.com'"/>
+</h1>
+    """)
+
+    
+def view_aY(request):
+    funcoes.add_visita('aY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://facebook.com
+<meta http-equiv="refresh" content="0; URL='http://facebook.com'"/>
+</h1>
+    """)
+
+    
+def view_aZ(request):
+    funcoes.add_visita('aZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_b0(request):
+    funcoes.add_visita('b0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_b1(request):
+    funcoes.add_visita('b1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://pudim.com.br
+<meta http-equiv="refresh" content="0; URL='http://pudim.com.br'"/>
+</h1>
+    """)
+
+    
+def view_b2(request):
+    funcoes.add_visita('b2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com.br
+<meta http-equiv="refresh" content="0; URL='http://google.com.br'"/>
+</h1>
+    """)
+
+    
+def view_b3(request):
+    funcoes.add_visita('b3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_b4(request):
+    funcoes.add_visita('b4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_b5(request):
+    funcoes.add_visita('b5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=1
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=1'"/>
+</h1>
+    """)
+
+    
+def view_b6(request):
+    funcoes.add_visita('b6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=2
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=2'"/>
+</h1>
+    """)
+
+    
+def view_b7(request):
+    funcoes.add_visita('b7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=3
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=3'"/>
+</h1>
+    """)
+
+    
+def view_b8(request):
+    funcoes.add_visita('b8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=4
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=4'"/>
+</h1>
+    """)
+
+    
+def view_b9(request):
+    funcoes.add_visita('b9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=5
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=5'"/>
+</h1>
+    """)
+
+    
+def view_ba(request):
+    funcoes.add_visita('ba')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=6
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=6'"/>
+</h1>
+    """)
+
+    
+def view_bb(request):
+    funcoes.add_visita('bb')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=7
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=7'"/>
+</h1>
+    """)
+
+    
+def view_bc(request):
+    funcoes.add_visita('bc')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=8
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=8'"/>
+</h1>
+    """)
+
+    
+def view_bd(request):
+    funcoes.add_visita('bd')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=9
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=9'"/>
+</h1>
+    """)
+
+    
+def view_be(request):
+    funcoes.add_visita('be')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=10
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=10'"/>
+</h1>
+    """)
+
+    
+def view_bf(request):
+    funcoes.add_visita('bf')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=11
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=11'"/>
+</h1>
+    """)
+
+    
+def view_bg(request):
+    funcoes.add_visita('bg')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=12
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=12'"/>
+</h1>
+    """)
+
+    
+def view_bh(request):
+    funcoes.add_visita('bh')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=13
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=13'"/>
+</h1>
+    """)
+
+    
+def view_bi(request):
+    funcoes.add_visita('bi')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=14
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=14'"/>
+</h1>
+    """)
+
+    
+def view_bj(request):
+    funcoes.add_visita('bj')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=15
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=15'"/>
+</h1>
+    """)
+
+    
+def view_bk(request):
+    funcoes.add_visita('bk')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=1
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=1'"/>
+</h1>
+    """)
+
+    
+def view_bl(request):
+    funcoes.add_visita('bl')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=2
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=2'"/>
+</h1>
+    """)
+
+    
+def view_bm(request):
+    funcoes.add_visita('bm')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=3
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=3'"/>
+</h1>
+    """)
+
+    
+def view_bn(request):
+    funcoes.add_visita('bn')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=4
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=4'"/>
+</h1>
+    """)
+
+    
+def view_bo(request):
+    funcoes.add_visita('bo')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=5
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=5'"/>
+</h1>
+    """)
+
+    
+def view_bp(request):
+    funcoes.add_visita('bp')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=6
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=6'"/>
+</h1>
+    """)
+
+    
+def view_bq(request):
+    funcoes.add_visita('bq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=7
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=7'"/>
+</h1>
+    """)
+
+    
+def view_br(request):
+    funcoes.add_visita('br')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=8
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=8'"/>
+</h1>
+    """)
+
+    
+def view_bs(request):
+    funcoes.add_visita('bs')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=9
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=9'"/>
+</h1>
+    """)
+
+    
+def view_bt(request):
+    funcoes.add_visita('bt')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=10
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=10'"/>
+</h1>
+    """)
+
+    
+def view_bu(request):
+    funcoes.add_visita('bu')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=11
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=11'"/>
+</h1>
+    """)
+
+    
+def view_bv(request):
+    funcoes.add_visita('bv')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=12
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=12'"/>
+</h1>
+    """)
+
+    
+def view_bw(request):
+    funcoes.add_visita('bw')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=13
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=13'"/>
+</h1>
+    """)
+
+    
+def view_bx(request):
+    funcoes.add_visita('bx')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=14
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=14'"/>
+</h1>
+    """)
+
+    
+def view_by(request):
+    funcoes.add_visita('by')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=15
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=15'"/>
+</h1>
+    """)
+
+    
+def view_bz(request):
+    funcoes.add_visita('bz')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=16
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=16'"/>
+</h1>
+    """)
+
+    
+def view_bA(request):
+    funcoes.add_visita('bA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=17
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=17'"/>
+</h1>
+    """)
+
+    
+def view_bB(request):
+    funcoes.add_visita('bB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=18
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=18'"/>
+</h1>
+    """)
+
+    
+def view_bC(request):
+    funcoes.add_visita('bC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=19
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=19'"/>
+</h1>
+    """)
+
+    
+def view_bD(request):
+    funcoes.add_visita('bD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=20
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=20'"/>
+</h1>
+    """)
+
+    
+def view_bE(request):
+    funcoes.add_visita('bE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=21
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=21'"/>
+</h1>
+    """)
+
+    
+def view_bF(request):
+    funcoes.add_visita('bF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=22
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=22'"/>
+</h1>
+    """)
+
+    
+def view_bG(request):
+    funcoes.add_visita('bG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=23
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=23'"/>
+</h1>
+    """)
+
+    
+def view_bH(request):
+    funcoes.add_visita('bH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=24
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=24'"/>
+</h1>
+    """)
+
+    
+def view_bI(request):
+    funcoes.add_visita('bI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=25
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=25'"/>
+</h1>
+    """)
+
+    
+def view_bJ(request):
+    funcoes.add_visita('bJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=26
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=26'"/>
+</h1>
+    """)
+
+    
+def view_bK(request):
+    funcoes.add_visita('bK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=27
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=27'"/>
+</h1>
+    """)
+
+    
+def view_bL(request):
+    funcoes.add_visita('bL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=28
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=28'"/>
+</h1>
+    """)
+
+    
+def view_bM(request):
+    funcoes.add_visita('bM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=29
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=29'"/>
+</h1>
+    """)
+
+    
+def view_bN(request):
+    funcoes.add_visita('bN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=30
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=30'"/>
+</h1>
+    """)
+
+    
+def view_bO(request):
+    funcoes.add_visita('bO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=31
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=31'"/>
+</h1>
+    """)
+
+    
+def view_bP(request):
+    funcoes.add_visita('bP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=32
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=32'"/>
+</h1>
+    """)
+
+    
+def view_bQ(request):
+    funcoes.add_visita('bQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=33
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=33'"/>
+</h1>
+    """)
+
+    
+def view_bR(request):
+    funcoes.add_visita('bR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=34
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=34'"/>
+</h1>
+    """)
+
+    
+def view_bS(request):
+    funcoes.add_visita('bS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=35
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=35'"/>
+</h1>
+    """)
+
+    
+def view_bT(request):
+    funcoes.add_visita('bT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=36
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=36'"/>
+</h1>
+    """)
+
+    
+def view_bU(request):
+    funcoes.add_visita('bU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=37
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=37'"/>
+</h1>
+    """)
+
+    
+def view_bV(request):
+    funcoes.add_visita('bV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=38
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=38'"/>
+</h1>
+    """)
+
+    
+def view_bW(request):
+    funcoes.add_visita('bW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=39
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=39'"/>
+</h1>
+    """)
+
+    
+def view_bX(request):
+    funcoes.add_visita('bX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=40
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=40'"/>
+</h1>
+    """)
+
+    
+def view_bY(request):
+    funcoes.add_visita('bY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=41
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=41'"/>
+</h1>
+    """)
+
+    
+def view_bZ(request):
+    funcoes.add_visita('bZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=42
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=42'"/>
+</h1>
+    """)
+
+    
+def view_c0(request):
+    funcoes.add_visita('c0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=43
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=43'"/>
+</h1>
+    """)
+
+    
+def view_c1(request):
+    funcoes.add_visita('c1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=44
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=44'"/>
+</h1>
+    """)
+
+    
+def view_c2(request):
+    funcoes.add_visita('c2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=45
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=45'"/>
+</h1>
+    """)
+
+    
+def view_c3(request):
+    funcoes.add_visita('c3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=46
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=46'"/>
+</h1>
+    """)
+
+    
+def view_c4(request):
+    funcoes.add_visita('c4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=47
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=47'"/>
+</h1>
+    """)
+
+    
+def view_c5(request):
+    funcoes.add_visita('c5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=48
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=48'"/>
+</h1>
+    """)
+
+    
+def view_c6(request):
+    funcoes.add_visita('c6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=49
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=49'"/>
+</h1>
+    """)
+
+    
+def view_c7(request):
+    funcoes.add_visita('c7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=50
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=50'"/>
+</h1>
+    """)
+
+    
+def view_c8(request):
+    funcoes.add_visita('c8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=51
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=51'"/>
+</h1>
+    """)
+
+    
+def view_c9(request):
+    funcoes.add_visita('c9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=52
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=52'"/>
+</h1>
+    """)
+
+    
+def view_ca(request):
+    funcoes.add_visita('ca')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=53
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=53'"/>
+</h1>
+    """)
+
+    
+def view_cb(request):
+    funcoes.add_visita('cb')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=54
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=54'"/>
+</h1>
+    """)
+
+    
+def view_cc(request):
+    funcoes.add_visita('cc')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=55
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=55'"/>
+</h1>
+    """)
+
+    
+def view_cd(request):
+    funcoes.add_visita('cd')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=56
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=56'"/>
+</h1>
+    """)
+
+    
+def view_ce(request):
+    funcoes.add_visita('ce')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=57
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=57'"/>
+</h1>
+    """)
+
+    
+def view_cf(request):
+    funcoes.add_visita('cf')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=58
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=58'"/>
+</h1>
+    """)
+
+    
+def view_cg(request):
+    funcoes.add_visita('cg')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=59
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=59'"/>
+</h1>
+    """)
+
+    
+def view_ch(request):
+    funcoes.add_visita('ch')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=60
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=60'"/>
+</h1>
+    """)
+
+    
+def view_ci(request):
+    funcoes.add_visita('ci')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=61
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=61'"/>
+</h1>
+    """)
+
+    
+def view_cj(request):
+    funcoes.add_visita('cj')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=62
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=62'"/>
+</h1>
+    """)
+
+    
+def view_ck(request):
+    funcoes.add_visita('ck')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=63
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=63'"/>
+</h1>
+    """)
+
+    
+def view_cl(request):
+    funcoes.add_visita('cl')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=64
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=64'"/>
+</h1>
+    """)
+
+    
+def view_cm(request):
+    funcoes.add_visita('cm')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=65
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=65'"/>
+</h1>
+    """)
+
+    
+def view_cn(request):
+    funcoes.add_visita('cn')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=66
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=66'"/>
+</h1>
+    """)
+
+    
+def view_co(request):
+    funcoes.add_visita('co')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=67
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=67'"/>
+</h1>
+    """)
+
+    
+def view_cp(request):
+    funcoes.add_visita('cp')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=68
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=68'"/>
+</h1>
+    """)
+
+    
+def view_cq(request):
+    funcoes.add_visita('cq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=69
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=69'"/>
+</h1>
+    """)
+
+    
+def view_cr(request):
+    funcoes.add_visita('cr')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=70
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=70'"/>
+</h1>
+    """)
+
+    
+def view_cs(request):
+    funcoes.add_visita('cs')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=71
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=71'"/>
+</h1>
+    """)
+
+    
+def view_ct(request):
+    funcoes.add_visita('ct')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=72
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=72'"/>
+</h1>
+    """)
+
+    
+def view_cu(request):
+    funcoes.add_visita('cu')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=73
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=73'"/>
+</h1>
+    """)
+
+    
+def view_cv(request):
+    funcoes.add_visita('cv')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=74
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=74'"/>
+</h1>
+    """)
+
+    
+def view_cw(request):
+    funcoes.add_visita('cw')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=75
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=75'"/>
+</h1>
+    """)
+
+    
+def view_cx(request):
+    funcoes.add_visita('cx')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=76
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=76'"/>
+</h1>
+    """)
+
+    
+def view_cy(request):
+    funcoes.add_visita('cy')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=77
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=77'"/>
+</h1>
+    """)
+
+    
+def view_cz(request):
+    funcoes.add_visita('cz')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=78
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=78'"/>
+</h1>
+    """)
+
+    
+def view_cA(request):
+    funcoes.add_visita('cA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=79
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=79'"/>
+</h1>
+    """)
+
+    
+def view_cB(request):
+    funcoes.add_visita('cB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=80
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=80'"/>
+</h1>
+    """)
+
+    
+def view_cC(request):
+    funcoes.add_visita('cC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=81
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=81'"/>
+</h1>
+    """)
+
+    
+def view_cD(request):
+    funcoes.add_visita('cD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=82
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=82'"/>
+</h1>
+    """)
+
+    
+def view_cE(request):
+    funcoes.add_visita('cE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=83
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=83'"/>
+</h1>
+    """)
+
+    
+def view_cF(request):
+    funcoes.add_visita('cF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=84
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=84'"/>
+</h1>
+    """)
+
+    
+def view_cG(request):
+    funcoes.add_visita('cG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=85
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=85'"/>
+</h1>
+    """)
+
+    
+def view_cH(request):
+    funcoes.add_visita('cH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=86
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=86'"/>
+</h1>
+    """)
+
+    
+def view_cI(request):
+    funcoes.add_visita('cI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=87
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=87'"/>
+</h1>
+    """)
+
+    
+def view_cJ(request):
+    funcoes.add_visita('cJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=88
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=88'"/>
+</h1>
+    """)
+
+    
+def view_cK(request):
+    funcoes.add_visita('cK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=89
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=89'"/>
+</h1>
+    """)
+
+    
+def view_cL(request):
+    funcoes.add_visita('cL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=90
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=90'"/>
+</h1>
+    """)
+
+    
+def view_cM(request):
+    funcoes.add_visita('cM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=91
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=91'"/>
+</h1>
+    """)
+
+    
+def view_cN(request):
+    funcoes.add_visita('cN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=92
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=92'"/>
+</h1>
+    """)
+
+    
+def view_cO(request):
+    funcoes.add_visita('cO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=93
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=93'"/>
+</h1>
+    """)
+
+    
+def view_cP(request):
+    funcoes.add_visita('cP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=94
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=94'"/>
+</h1>
+    """)
+
+    
+def view_cQ(request):
+    funcoes.add_visita('cQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=95
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=95'"/>
+</h1>
+    """)
+
+    
+def view_cR(request):
+    funcoes.add_visita('cR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=96
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=96'"/>
+</h1>
+    """)
+
+    
+def view_cS(request):
+    funcoes.add_visita('cS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=97
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=97'"/>
+</h1>
+    """)
+
+    
+def view_cT(request):
+    funcoes.add_visita('cT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=98
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=98'"/>
+</h1>
+    """)
+
+    
+def view_cU(request):
+    funcoes.add_visita('cU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=99
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=99'"/>
+</h1>
+    """)
+
+    
+def view_cV(request):
+    funcoes.add_visita('cV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.google.com/search?q=100
+<meta http-equiv="refresh" content="0; URL='https://www.google.com/search?q=100'"/>
+</h1>
+    """)
+
+    
+def view_cW(request):
+    funcoes.add_visita('cW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_cX(request):
+    funcoes.add_visita('cX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_cY(request):
+    funcoes.add_visita('cY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_cZ(request):
+    funcoes.add_visita('cZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_d0(request):
+    funcoes.add_visita('d0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_d1(request):
+    funcoes.add_visita('d1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://pudim.com.br
+<meta http-equiv="refresh" content="0; URL='http://pudim.com.br'"/>
+</h1>
+    """)
+
+    
+def view_d2(request):
+    funcoes.add_visita('d2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_d3(request):
+    funcoes.add_visita('d3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_d4(request):
+    funcoes.add_visita('d4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://pudim.com.br
+<meta http-equiv="refresh" content="0; URL='http://pudim.com.br'"/>
+</h1>
+    """)
+
+    
+def view_d5(request):
+    funcoes.add_visita('d5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_d6(request):
+    funcoes.add_visita('d6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://facebook.com
+<meta http-equiv="refresh" content="0; URL='http://facebook.com'"/>
+</h1>
+    """)
+
+    
+def view_d7(request):
+    funcoes.add_visita('d7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/?utm_campaign=2071682281&utm_medium=cpc&utm_source=google&utm_term=linx&gclid=CjwKCAiA_MPuBRB5EiwAHTTvMaYsHeS7nPUObqJuJVRuEo-uOicxn3e1GusvWcqO8pMWqW1Sn1QNuxoC82wQAvD_BwE
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/?utm_campaign=2071682281&utm_medium=cpc&utm_source=google&utm_term=linx&gclid=CjwKCAiA_MPuBRB5EiwAHTTvMaYsHeS7nPUObqJuJVRuEo-uOicxn3e1GusvWcqO8pMWqW1Sn1QNuxoC82wQAvD_BwE'"/>
+</h1>
+    """)
+
+    
+def view_d8(request):
+    funcoes.add_visita('d8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://facebook.com
+<meta http-equiv="refresh" content="0; URL='http://facebook.com'"/>
+</h1>
+    """)
+
+    
+def view_d9(request):
+    funcoes.add_visita('d9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/1
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/1'"/>
+</h1>
+    """)
+
+    
+def view_da(request):
+    funcoes.add_visita('da')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/2
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/2'"/>
+</h1>
+    """)
+
+    
+def view_db(request):
+    funcoes.add_visita('db')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/3
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/3'"/>
+</h1>
+    """)
+
+    
+def view_dc(request):
+    funcoes.add_visita('dc')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/4
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/4'"/>
+</h1>
+    """)
+
+    
+def view_dd(request):
+    funcoes.add_visita('dd')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/5
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/5'"/>
+</h1>
+    """)
+
+    
+def view_de(request):
+    funcoes.add_visita('de')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/6
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/6'"/>
+</h1>
+    """)
+
+    
+def view_df(request):
+    funcoes.add_visita('df')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/7
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/7'"/>
+</h1>
+    """)
+
+    
+def view_dg(request):
+    funcoes.add_visita('dg')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/8
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/8'"/>
+</h1>
+    """)
+
+    
+def view_dh(request):
+    funcoes.add_visita('dh')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/9
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/9'"/>
+</h1>
+    """)
+
+    
+def view_di(request):
+    funcoes.add_visita('di')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/10
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/10'"/>
+</h1>
+    """)
+
+    
+def view_dj(request):
+    funcoes.add_visita('dj')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/11
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/11'"/>
+</h1>
+    """)
+
+    
+def view_dk(request):
+    funcoes.add_visita('dk')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/12
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/12'"/>
+</h1>
+    """)
+
+    
+def view_dl(request):
+    funcoes.add_visita('dl')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/13
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/13'"/>
+</h1>
+    """)
+
+    
+def view_dm(request):
+    funcoes.add_visita('dm')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/14
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/14'"/>
+</h1>
+    """)
+
+    
+def view_dn(request):
+    funcoes.add_visita('dn')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/15
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/15'"/>
+</h1>
+    """)
+
+    
+def view_do(request):
+    funcoes.add_visita('do')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/16
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/16'"/>
+</h1>
+    """)
+
+    
+def view_dp(request):
+    funcoes.add_visita('dp')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/17
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/17'"/>
+</h1>
+    """)
+
+    
+def view_dq(request):
+    funcoes.add_visita('dq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/18
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/18'"/>
+</h1>
+    """)
+
+    
+def view_dr(request):
+    funcoes.add_visita('dr')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/19
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/19'"/>
+</h1>
+    """)
+
+    
+def view_ds(request):
+    funcoes.add_visita('ds')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/20
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/20'"/>
+</h1>
+    """)
+
+    
+def view_dt(request):
+    funcoes.add_visita('dt')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/21
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/21'"/>
+</h1>
+    """)
+
+    
+def view_du(request):
+    funcoes.add_visita('du')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/22
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/22'"/>
+</h1>
+    """)
+
+    
+def view_dv(request):
+    funcoes.add_visita('dv')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/23
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/23'"/>
+</h1>
+    """)
+
+    
+def view_dw(request):
+    funcoes.add_visita('dw')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/24
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/24'"/>
+</h1>
+    """)
+
+    
+def view_dx(request):
+    funcoes.add_visita('dx')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/25
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/25'"/>
+</h1>
+    """)
+
+    
+def view_dy(request):
+    funcoes.add_visita('dy')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/26
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/26'"/>
+</h1>
+    """)
+
+    
+def view_dz(request):
+    funcoes.add_visita('dz')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/27
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/27'"/>
+</h1>
+    """)
+
+    
+def view_dA(request):
+    funcoes.add_visita('dA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/28
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/28'"/>
+</h1>
+    """)
+
+    
+def view_dB(request):
+    funcoes.add_visita('dB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/29
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/29'"/>
+</h1>
+    """)
+
+    
+def view_dC(request):
+    funcoes.add_visita('dC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/30
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/30'"/>
+</h1>
+    """)
+
+    
+def view_dD(request):
+    funcoes.add_visita('dD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/31
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/31'"/>
+</h1>
+    """)
+
+    
+def view_dE(request):
+    funcoes.add_visita('dE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/32
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/32'"/>
+</h1>
+    """)
+
+    
+def view_dF(request):
+    funcoes.add_visita('dF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/33
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/33'"/>
+</h1>
+    """)
+
+    
+def view_dG(request):
+    funcoes.add_visita('dG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/34
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/34'"/>
+</h1>
+    """)
+
+    
+def view_dH(request):
+    funcoes.add_visita('dH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/35
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/35'"/>
+</h1>
+    """)
+
+    
+def view_dI(request):
+    funcoes.add_visita('dI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/36
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/36'"/>
+</h1>
+    """)
+
+    
+def view_dJ(request):
+    funcoes.add_visita('dJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/37
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/37'"/>
+</h1>
+    """)
+
+    
+def view_dK(request):
+    funcoes.add_visita('dK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/38
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/38'"/>
+</h1>
+    """)
+
+    
+def view_dL(request):
+    funcoes.add_visita('dL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/39
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/39'"/>
+</h1>
+    """)
+
+    
+def view_dM(request):
+    funcoes.add_visita('dM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/40
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/40'"/>
+</h1>
+    """)
+
+    
+def view_dN(request):
+    funcoes.add_visita('dN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/41
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/41'"/>
+</h1>
+    """)
+
+    
+def view_dO(request):
+    funcoes.add_visita('dO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/42
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/42'"/>
+</h1>
+    """)
+
+    
+def view_dP(request):
+    funcoes.add_visita('dP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/43
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/43'"/>
+</h1>
+    """)
+
+    
+def view_dQ(request):
+    funcoes.add_visita('dQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/44
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/44'"/>
+</h1>
+    """)
+
+    
+def view_dR(request):
+    funcoes.add_visita('dR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/45
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/45'"/>
+</h1>
+    """)
+
+    
+def view_dS(request):
+    funcoes.add_visita('dS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/46
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/46'"/>
+</h1>
+    """)
+
+    
+def view_dT(request):
+    funcoes.add_visita('dT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/1
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/1'"/>
+</h1>
+    """)
+
+    
+def view_dU(request):
+    funcoes.add_visita('dU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/2
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/2'"/>
+</h1>
+    """)
+
+    
+def view_dV(request):
+    funcoes.add_visita('dV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/3
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/3'"/>
+</h1>
+    """)
+
+    
+def view_dW(request):
+    funcoes.add_visita('dW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/4
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/4'"/>
+</h1>
+    """)
+
+    
+def view_dX(request):
+    funcoes.add_visita('dX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/5
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/5'"/>
+</h1>
+    """)
+
+    
+def view_dY(request):
+    funcoes.add_visita('dY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/6
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/6'"/>
+</h1>
+    """)
+
+    
+def view_dZ(request):
+    funcoes.add_visita('dZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/7
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/7'"/>
+</h1>
+    """)
+
+    
+def view_e0(request):
+    funcoes.add_visita('e0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/8
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/8'"/>
+</h1>
+    """)
+
+    
+def view_e1(request):
+    funcoes.add_visita('e1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/9
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/9'"/>
+</h1>
+    """)
+
+    
+def view_e2(request):
+    funcoes.add_visita('e2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/10
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/10'"/>
+</h1>
+    """)
+
+    
+def view_e3(request):
+    funcoes.add_visita('e3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/11
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/11'"/>
+</h1>
+    """)
+
+    
+def view_e4(request):
+    funcoes.add_visita('e4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/12
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/12'"/>
+</h1>
+    """)
+
+    
+def view_e5(request):
+    funcoes.add_visita('e5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/13
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/13'"/>
+</h1>
+    """)
+
+    
+def view_e6(request):
+    funcoes.add_visita('e6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/14
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/14'"/>
+</h1>
+    """)
+
+    
+def view_e7(request):
+    funcoes.add_visita('e7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/15
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/15'"/>
+</h1>
+    """)
+
+    
+def view_e8(request):
+    funcoes.add_visita('e8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/16
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/16'"/>
+</h1>
+    """)
+
+    
+def view_e9(request):
+    funcoes.add_visita('e9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/17
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/17'"/>
+</h1>
+    """)
+
+    
+def view_ea(request):
+    funcoes.add_visita('ea')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/18
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/18'"/>
+</h1>
+    """)
+
+    
+def view_eb(request):
+    funcoes.add_visita('eb')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/19
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/19'"/>
+</h1>
+    """)
+
+    
+def view_ec(request):
+    funcoes.add_visita('ec')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/20
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/20'"/>
+</h1>
+    """)
+
+    
+def view_ed(request):
+    funcoes.add_visita('ed')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/21
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/21'"/>
+</h1>
+    """)
+
+    
+def view_ee(request):
+    funcoes.add_visita('ee')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/22
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/22'"/>
+</h1>
+    """)
+
+    
+def view_ef(request):
+    funcoes.add_visita('ef')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/23
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/23'"/>
+</h1>
+    """)
+
+    
+def view_eg(request):
+    funcoes.add_visita('eg')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/24
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/24'"/>
+</h1>
+    """)
+
+    
+def view_eh(request):
+    funcoes.add_visita('eh')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/25
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/25'"/>
+</h1>
+    """)
+
+    
+def view_ei(request):
+    funcoes.add_visita('ei')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/26
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/26'"/>
+</h1>
+    """)
+
+    
+def view_ej(request):
+    funcoes.add_visita('ej')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/27
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/27'"/>
+</h1>
+    """)
+
+    
+def view_ek(request):
+    funcoes.add_visita('ek')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/28
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/28'"/>
+</h1>
+    """)
+
+    
+def view_el(request):
+    funcoes.add_visita('el')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/29
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/29'"/>
+</h1>
+    """)
+
+    
+def view_em(request):
+    funcoes.add_visita('em')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/30
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/30'"/>
+</h1>
+    """)
+
+    
+def view_en(request):
+    funcoes.add_visita('en')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/31
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/31'"/>
+</h1>
+    """)
+
+    
+def view_eo(request):
+    funcoes.add_visita('eo')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/32
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/32'"/>
+</h1>
+    """)
+
+    
+def view_ep(request):
+    funcoes.add_visita('ep')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/33
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/33'"/>
+</h1>
+    """)
+
+    
+def view_eq(request):
+    funcoes.add_visita('eq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/34
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/34'"/>
+</h1>
+    """)
+
+    
+def view_er(request):
+    funcoes.add_visita('er')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/35
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/35'"/>
+</h1>
+    """)
+
+    
+def view_es(request):
+    funcoes.add_visita('es')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/36
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/36'"/>
+</h1>
+    """)
+
+    
+def view_et(request):
+    funcoes.add_visita('et')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/37
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/37'"/>
+</h1>
+    """)
+
+    
+def view_eu(request):
+    funcoes.add_visita('eu')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/38
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/38'"/>
+</h1>
+    """)
+
+    
+def view_ev(request):
+    funcoes.add_visita('ev')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/39
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/39'"/>
+</h1>
+    """)
+
+    
+def view_ew(request):
+    funcoes.add_visita('ew')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/40
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/40'"/>
+</h1>
+    """)
+
+    
+def view_ex(request):
+    funcoes.add_visita('ex')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/41
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/41'"/>
+</h1>
+    """)
+
+    
+def view_ey(request):
+    funcoes.add_visita('ey')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/42
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/42'"/>
+</h1>
+    """)
+
+    
+def view_ez(request):
+    funcoes.add_visita('ez')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/43
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/43'"/>
+</h1>
+    """)
+
+    
+def view_eA(request):
+    funcoes.add_visita('eA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/44
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/44'"/>
+</h1>
+    """)
+
+    
+def view_eB(request):
+    funcoes.add_visita('eB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/45
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/45'"/>
+</h1>
+    """)
+
+    
+def view_eC(request):
+    funcoes.add_visita('eC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/46
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/46'"/>
+</h1>
+    """)
+
+    
+def view_eD(request):
+    funcoes.add_visita('eD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/47
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/47'"/>
+</h1>
+    """)
+
+    
+def view_eE(request):
+    funcoes.add_visita('eE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/48
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/48'"/>
+</h1>
+    """)
+
+    
+def view_eF(request):
+    funcoes.add_visita('eF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/49
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/49'"/>
+</h1>
+    """)
+
+    
+def view_eG(request):
+    funcoes.add_visita('eG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/50
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/50'"/>
+</h1>
+    """)
+
+    
+def view_eH(request):
+    funcoes.add_visita('eH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/51
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/51'"/>
+</h1>
+    """)
+
+    
+def view_eI(request):
+    funcoes.add_visita('eI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/52
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/52'"/>
+</h1>
+    """)
+
+    
+def view_eJ(request):
+    funcoes.add_visita('eJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/53
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/53'"/>
+</h1>
+    """)
+
+    
+def view_eK(request):
+    funcoes.add_visita('eK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/54
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/54'"/>
+</h1>
+    """)
+
+    
+def view_eL(request):
+    funcoes.add_visita('eL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/55
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/55'"/>
+</h1>
+    """)
+
+    
+def view_eM(request):
+    funcoes.add_visita('eM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/56
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/56'"/>
+</h1>
+    """)
+
+    
+def view_eN(request):
+    funcoes.add_visita('eN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/57
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/57'"/>
+</h1>
+    """)
+
+    
+def view_eO(request):
+    funcoes.add_visita('eO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/58
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/58'"/>
+</h1>
+    """)
+
+    
+def view_eP(request):
+    funcoes.add_visita('eP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/59
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/59'"/>
+</h1>
+    """)
+
+    
+def view_eQ(request):
+    funcoes.add_visita('eQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/60
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/60'"/>
+</h1>
+    """)
+
+    
+def view_eR(request):
+    funcoes.add_visita('eR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/61
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/61'"/>
+</h1>
+    """)
+
+    
+def view_eS(request):
+    funcoes.add_visita('eS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/62
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/62'"/>
+</h1>
+    """)
+
+    
+def view_eT(request):
+    funcoes.add_visita('eT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/63
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/63'"/>
+</h1>
+    """)
+
+    
+def view_eU(request):
+    funcoes.add_visita('eU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/64
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/64'"/>
+</h1>
+    """)
+
+    
+def view_eV(request):
+    funcoes.add_visita('eV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/65
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/65'"/>
+</h1>
+    """)
+
+    
+def view_eW(request):
+    funcoes.add_visita('eW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/66
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/66'"/>
+</h1>
+    """)
+
+    
+def view_eX(request):
+    funcoes.add_visita('eX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/67
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/67'"/>
+</h1>
+    """)
+
+    
+def view_eY(request):
+    funcoes.add_visita('eY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/68
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/68'"/>
+</h1>
+    """)
+
+    
+def view_eZ(request):
+    funcoes.add_visita('eZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/69
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/69'"/>
+</h1>
+    """)
+
+    
+def view_f0(request):
+    funcoes.add_visita('f0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/70
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/70'"/>
+</h1>
+    """)
+
+    
+def view_f1(request):
+    funcoes.add_visita('f1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/71
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/71'"/>
+</h1>
+    """)
+
+    
+def view_f2(request):
+    funcoes.add_visita('f2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/72
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/72'"/>
+</h1>
+    """)
+
+    
+def view_f3(request):
+    funcoes.add_visita('f3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/73
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/73'"/>
+</h1>
+    """)
+
+    
+def view_f4(request):
+    funcoes.add_visita('f4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/74
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/74'"/>
+</h1>
+    """)
+
+    
+def view_f5(request):
+    funcoes.add_visita('f5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/75
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/75'"/>
+</h1>
+    """)
+
+    
+def view_f6(request):
+    funcoes.add_visita('f6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/76
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/76'"/>
+</h1>
+    """)
+
+    
+def view_f7(request):
+    funcoes.add_visita('f7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/77
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/77'"/>
+</h1>
+    """)
+
+    
+def view_f8(request):
+    funcoes.add_visita('f8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/78
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/78'"/>
+</h1>
+    """)
+
+    
+def view_f9(request):
+    funcoes.add_visita('f9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/79
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/79'"/>
+</h1>
+    """)
+
+    
+def view_fa(request):
+    funcoes.add_visita('fa')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/80
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/80'"/>
+</h1>
+    """)
+
+    
+def view_fb(request):
+    funcoes.add_visita('fb')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/81
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/81'"/>
+</h1>
+    """)
+
+    
+def view_fc(request):
+    funcoes.add_visita('fc')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/82
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/82'"/>
+</h1>
+    """)
+
+    
+def view_fd(request):
+    funcoes.add_visita('fd')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/83
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/83'"/>
+</h1>
+    """)
+
+    
+def view_fe(request):
+    funcoes.add_visita('fe')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/84
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/84'"/>
+</h1>
+    """)
+
+    
+def view_ff(request):
+    funcoes.add_visita('ff')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/85
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/85'"/>
+</h1>
+    """)
+
+    
+def view_fg(request):
+    funcoes.add_visita('fg')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/86
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/86'"/>
+</h1>
+    """)
+
+    
+def view_fh(request):
+    funcoes.add_visita('fh')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/87
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/87'"/>
+</h1>
+    """)
+
+    
+def view_fi(request):
+    funcoes.add_visita('fi')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/88
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/88'"/>
+</h1>
+    """)
+
+    
+def view_fj(request):
+    funcoes.add_visita('fj')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/89
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/89'"/>
+</h1>
+    """)
+
+    
+def view_fk(request):
+    funcoes.add_visita('fk')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/90
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/90'"/>
+</h1>
+    """)
+
+    
+def view_fl(request):
+    funcoes.add_visita('fl')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/91
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/91'"/>
+</h1>
+    """)
+
+    
+def view_fm(request):
+    funcoes.add_visita('fm')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/92
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/92'"/>
+</h1>
+    """)
+
+    
+def view_fn(request):
+    funcoes.add_visita('fn')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/93
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/93'"/>
+</h1>
+    """)
+
+    
+def view_fo(request):
+    funcoes.add_visita('fo')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/94
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/94'"/>
+</h1>
+    """)
+
+    
+def view_fp(request):
+    funcoes.add_visita('fp')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/95
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/95'"/>
+</h1>
+    """)
+
+    
+def view_fq(request):
+    funcoes.add_visita('fq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/96
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/96'"/>
+</h1>
+    """)
+
+    
+def view_fr(request):
+    funcoes.add_visita('fr')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/97
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/97'"/>
+</h1>
+    """)
+
+    
+def view_fs(request):
+    funcoes.add_visita('fs')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/98
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/98'"/>
+</h1>
+    """)
+
+    
+def view_ft(request):
+    funcoes.add_visita('ft')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/99
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/99'"/>
+</h1>
+    """)
+
+    
+def view_fu(request):
+    funcoes.add_visita('fu')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/100
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/100'"/>
+</h1>
+    """)
+
+    
+def view_fv(request):
+    funcoes.add_visita('fv')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/1
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/1'"/>
+</h1>
+    """)
+
+    
+def view_fw(request):
+    funcoes.add_visita('fw')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/2
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/2'"/>
+</h1>
+    """)
+
+    
+def view_fx(request):
+    funcoes.add_visita('fx')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/3
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/3'"/>
+</h1>
+    """)
+
+    
+def view_fy(request):
+    funcoes.add_visita('fy')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/4
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/4'"/>
+</h1>
+    """)
+
+    
+def view_fz(request):
+    funcoes.add_visita('fz')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/5
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/5'"/>
+</h1>
+    """)
+
+    
+def view_fA(request):
+    funcoes.add_visita('fA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/6
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/6'"/>
+</h1>
+    """)
+
+    
+def view_fB(request):
+    funcoes.add_visita('fB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/7
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/7'"/>
+</h1>
+    """)
+
+    
+def view_fC(request):
+    funcoes.add_visita('fC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/8
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/8'"/>
+</h1>
+    """)
+
+    
+def view_fD(request):
+    funcoes.add_visita('fD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/9
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/9'"/>
+</h1>
+    """)
+
+    
+def view_fE(request):
+    funcoes.add_visita('fE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/10
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/10'"/>
+</h1>
+    """)
+
+    
+def view_fF(request):
+    funcoes.add_visita('fF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/11
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/11'"/>
+</h1>
+    """)
+
+    
+def view_fG(request):
+    funcoes.add_visita('fG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/12
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/12'"/>
+</h1>
+    """)
+
+    
+def view_fH(request):
+    funcoes.add_visita('fH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/13
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/13'"/>
+</h1>
+    """)
+
+    
+def view_fI(request):
+    funcoes.add_visita('fI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/14
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/14'"/>
+</h1>
+    """)
+
+    
+def view_fJ(request):
+    funcoes.add_visita('fJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/15
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/15'"/>
+</h1>
+    """)
+
+    
+def view_fK(request):
+    funcoes.add_visita('fK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/16
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/16'"/>
+</h1>
+    """)
+
+    
+def view_fL(request):
+    funcoes.add_visita('fL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/17
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/17'"/>
+</h1>
+    """)
+
+    
+def view_fM(request):
+    funcoes.add_visita('fM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/18
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/18'"/>
+</h1>
+    """)
+
+    
+def view_fN(request):
+    funcoes.add_visita('fN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/19
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/19'"/>
+</h1>
+    """)
+
+    
+def view_fO(request):
+    funcoes.add_visita('fO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/20
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/20'"/>
+</h1>
+    """)
+
+    
+def view_fP(request):
+    funcoes.add_visita('fP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/21
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/21'"/>
+</h1>
+    """)
+
+    
+def view_fQ(request):
+    funcoes.add_visita('fQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/22
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/22'"/>
+</h1>
+    """)
+
+    
+def view_fR(request):
+    funcoes.add_visita('fR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/23
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/23'"/>
+</h1>
+    """)
+
+    
+def view_fS(request):
+    funcoes.add_visita('fS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/24
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/24'"/>
+</h1>
+    """)
+
+    
+def view_fT(request):
+    funcoes.add_visita('fT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/25
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/25'"/>
+</h1>
+    """)
+
+    
+def view_fU(request):
+    funcoes.add_visita('fU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/26
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/26'"/>
+</h1>
+    """)
+
+    
+def view_fV(request):
+    funcoes.add_visita('fV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/27
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/27'"/>
+</h1>
+    """)
+
+    
+def view_fW(request):
+    funcoes.add_visita('fW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/28
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/28'"/>
+</h1>
+    """)
+
+    
+def view_fX(request):
+    funcoes.add_visita('fX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/29
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/29'"/>
+</h1>
+    """)
+
+    
+def view_fY(request):
+    funcoes.add_visita('fY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/30
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/30'"/>
+</h1>
+    """)
+
+    
+def view_fZ(request):
+    funcoes.add_visita('fZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/31
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/31'"/>
+</h1>
+    """)
+
+    
+def view_g0(request):
+    funcoes.add_visita('g0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/32
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/32'"/>
+</h1>
+    """)
+
+    
+def view_g1(request):
+    funcoes.add_visita('g1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/33
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/33'"/>
+</h1>
+    """)
+
+    
+def view_g2(request):
+    funcoes.add_visita('g2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/34
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/34'"/>
+</h1>
+    """)
+
+    
+def view_g3(request):
+    funcoes.add_visita('g3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/35
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/35'"/>
+</h1>
+    """)
+
+    
+def view_g3(request):
+    funcoes.add_visita('g3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/1
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/1'"/>
+</h1>
+    """)
+
+    
+def view_g4(request):
+    funcoes.add_visita('g4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/2
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/2'"/>
+</h1>
+    """)
+
+    
+def view_g5(request):
+    funcoes.add_visita('g5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/3
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/3'"/>
+</h1>
+    """)
+
+    
+def view_g6(request):
+    funcoes.add_visita('g6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/4
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/4'"/>
+</h1>
+    """)
+
+    
+def view_g7(request):
+    funcoes.add_visita('g7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/5
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/5'"/>
+</h1>
+    """)
+
+    
+def view_g8(request):
+    funcoes.add_visita('g8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/6
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/6'"/>
+</h1>
+    """)
+
+    
+def view_g9(request):
+    funcoes.add_visita('g9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/7
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/7'"/>
+</h1>
+    """)
+
+    
+def view_ga(request):
+    funcoes.add_visita('ga')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/8
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/8'"/>
+</h1>
+    """)
+
+    
+def view_gb(request):
+    funcoes.add_visita('gb')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/9
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/9'"/>
+</h1>
+    """)
+
+    
+def view_gc(request):
+    funcoes.add_visita('gc')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/10
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/10'"/>
+</h1>
+    """)
+
+    
+def view_gd(request):
+    funcoes.add_visita('gd')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/11
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/11'"/>
+</h1>
+    """)
+
+    
+def view_ge(request):
+    funcoes.add_visita('ge')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/12
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/12'"/>
+</h1>
+    """)
+
+    
+def view_gf(request):
+    funcoes.add_visita('gf')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/13
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/13'"/>
+</h1>
+    """)
+
+    
+def view_gg(request):
+    funcoes.add_visita('gg')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/14
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/14'"/>
+</h1>
+    """)
+
+    
+def view_gh(request):
+    funcoes.add_visita('gh')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/15
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/15'"/>
+</h1>
+    """)
+
+    
+def view_gi(request):
+    funcoes.add_visita('gi')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/16
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/16'"/>
+</h1>
+    """)
+
+    
+def view_gj(request):
+    funcoes.add_visita('gj')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/17
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/17'"/>
+</h1>
+    """)
+
+    
+def view_gk(request):
+    funcoes.add_visita('gk')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/18
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/18'"/>
+</h1>
+    """)
+
+    
+def view_gl(request):
+    funcoes.add_visita('gl')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/19
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/19'"/>
+</h1>
+    """)
+
+    
+def view_gm(request):
+    funcoes.add_visita('gm')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/20
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/20'"/>
+</h1>
+    """)
+
+    
+def view_gn(request):
+    funcoes.add_visita('gn')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/21
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/21'"/>
+</h1>
+    """)
+
+    
+def view_go(request):
+    funcoes.add_visita('go')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/22
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/22'"/>
+</h1>
+    """)
+
+    
+def view_gp(request):
+    funcoes.add_visita('gp')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/23
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/23'"/>
+</h1>
+    """)
+
+    
+def view_gq(request):
+    funcoes.add_visita('gq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/24
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/24'"/>
+</h1>
+    """)
+
+    
+def view_gr(request):
+    funcoes.add_visita('gr')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/25
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/25'"/>
+</h1>
+    """)
+
+    
+def view_gs(request):
+    funcoes.add_visita('gs')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/26
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/26'"/>
+</h1>
+    """)
+
+    
+def view_gt(request):
+    funcoes.add_visita('gt')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/27
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/27'"/>
+</h1>
+    """)
+
+    
+def view_gu(request):
+    funcoes.add_visita('gu')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/28
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/28'"/>
+</h1>
+    """)
+
+    
+def view_gv(request):
+    funcoes.add_visita('gv')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/29
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/29'"/>
+</h1>
+    """)
+
+    
+def view_gw(request):
+    funcoes.add_visita('gw')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/30
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/30'"/>
+</h1>
+    """)
+
+    
+def view_gx(request):
+    funcoes.add_visita('gx')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/31
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/31'"/>
+</h1>
+    """)
+
+    
+def view_gy(request):
+    funcoes.add_visita('gy')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/32
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/32'"/>
+</h1>
+    """)
+
+    
+def view_gz(request):
+    funcoes.add_visita('gz')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/33
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/33'"/>
+</h1>
+    """)
+
+    
+def view_gA(request):
+    funcoes.add_visita('gA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/34
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/34'"/>
+</h1>
+    """)
+
+    
+def view_gB(request):
+    funcoes.add_visita('gB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/35
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/35'"/>
+</h1>
+    """)
+
+    
+def view_gC(request):
+    funcoes.add_visita('gC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/36
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/36'"/>
+</h1>
+    """)
+
+    
+def view_gD(request):
+    funcoes.add_visita('gD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/37
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/37'"/>
+</h1>
+    """)
+
+    
+def view_gE(request):
+    funcoes.add_visita('gE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/38
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/38'"/>
+</h1>
+    """)
+
+    
+def view_gF(request):
+    funcoes.add_visita('gF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/39
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/39'"/>
+</h1>
+    """)
+
+    
+def view_gG(request):
+    funcoes.add_visita('gG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/40
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/40'"/>
+</h1>
+    """)
+
+    
+def view_gH(request):
+    funcoes.add_visita('gH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/41
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/41'"/>
+</h1>
+    """)
+
+    
+def view_gI(request):
+    funcoes.add_visita('gI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/42
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/42'"/>
+</h1>
+    """)
+
+    
+def view_gJ(request):
+    funcoes.add_visita('gJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/43
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/43'"/>
+</h1>
+    """)
+
+    
+def view_gK(request):
+    funcoes.add_visita('gK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/44
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/44'"/>
+</h1>
+    """)
+
+    
+def view_gL(request):
+    funcoes.add_visita('gL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/45
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/45'"/>
+</h1>
+    """)
+
+    
+def view_gM(request):
+    funcoes.add_visita('gM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/46
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/46'"/>
+</h1>
+    """)
+
+    
+def view_gN(request):
+    funcoes.add_visita('gN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/47
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/47'"/>
+</h1>
+    """)
+
+    
+def view_gO(request):
+    funcoes.add_visita('gO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/48
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/48'"/>
+</h1>
+    """)
+
+    
+def view_gP(request):
+    funcoes.add_visita('gP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/49
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/49'"/>
+</h1>
+    """)
+
+    
+def view_gQ(request):
+    funcoes.add_visita('gQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/50
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/50'"/>
+</h1>
+    """)
+
+    
+def view_gR(request):
+    funcoes.add_visita('gR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/51
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/51'"/>
+</h1>
+    """)
+
+    
+def view_gS(request):
+    funcoes.add_visita('gS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/52
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/52'"/>
+</h1>
+    """)
+
+    
+def view_gT(request):
+    funcoes.add_visita('gT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/53
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/53'"/>
+</h1>
+    """)
+
+    
+def view_gU(request):
+    funcoes.add_visita('gU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/54
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/54'"/>
+</h1>
+    """)
+
+    
+def view_gV(request):
+    funcoes.add_visita('gV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/55
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/55'"/>
+</h1>
+    """)
+
+    
+def view_gW(request):
+    funcoes.add_visita('gW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/56
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/56'"/>
+</h1>
+    """)
+
+    
+def view_gX(request):
+    funcoes.add_visita('gX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/57
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/57'"/>
+</h1>
+    """)
+
+    
+def view_gY(request):
+    funcoes.add_visita('gY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/58
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/58'"/>
+</h1>
+    """)
+
+    
+def view_gZ(request):
+    funcoes.add_visita('gZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/59
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/59'"/>
+</h1>
+    """)
+
+    
+def view_h0(request):
+    funcoes.add_visita('h0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/60
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/60'"/>
+</h1>
+    """)
+
+    
+def view_h1(request):
+    funcoes.add_visita('h1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/61
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/61'"/>
+</h1>
+    """)
+
+    
+def view_h2(request):
+    funcoes.add_visita('h2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/62
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/62'"/>
+</h1>
+    """)
+
+    
+def view_h3(request):
+    funcoes.add_visita('h3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/63
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/63'"/>
+</h1>
+    """)
+
+    
+def view_h4(request):
+    funcoes.add_visita('h4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/64
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/64'"/>
+</h1>
+    """)
+
+    
+def view_h5(request):
+    funcoes.add_visita('h5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/65
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/65'"/>
+</h1>
+    """)
+
+    
+def view_h6(request):
+    funcoes.add_visita('h6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/66
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/66'"/>
+</h1>
+    """)
+
+    
+def view_h7(request):
+    funcoes.add_visita('h7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/67
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/67'"/>
+</h1>
+    """)
+
+    
+def view_h8(request):
+    funcoes.add_visita('h8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/68
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/68'"/>
+</h1>
+    """)
+
+    
+def view_h9(request):
+    funcoes.add_visita('h9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/69
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/69'"/>
+</h1>
+    """)
+
+    
+def view_ha(request):
+    funcoes.add_visita('ha')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/70
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/70'"/>
+</h1>
+    """)
+
+    
+def view_hb(request):
+    funcoes.add_visita('hb')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/71
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/71'"/>
+</h1>
+    """)
+
+    
+def view_hc(request):
+    funcoes.add_visita('hc')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/72
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/72'"/>
+</h1>
+    """)
+
+    
+def view_hd(request):
+    funcoes.add_visita('hd')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/73
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/73'"/>
+</h1>
+    """)
+
+    
+def view_he(request):
+    funcoes.add_visita('he')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/74
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/74'"/>
+</h1>
+    """)
+
+    
+def view_hf(request):
+    funcoes.add_visita('hf')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/75
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/75'"/>
+</h1>
+    """)
+
+    
+def view_hg(request):
+    funcoes.add_visita('hg')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/76
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/76'"/>
+</h1>
+    """)
+
+    
+def view_hh(request):
+    funcoes.add_visita('hh')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/77
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/77'"/>
+</h1>
+    """)
+
+    
+def view_hi(request):
+    funcoes.add_visita('hi')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/78
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/78'"/>
+</h1>
+    """)
+
+    
+def view_hj(request):
+    funcoes.add_visita('hj')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/79
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/79'"/>
+</h1>
+    """)
+
+    
+def view_hk(request):
+    funcoes.add_visita('hk')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/80
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/80'"/>
+</h1>
+    """)
+
+    
+def view_hl(request):
+    funcoes.add_visita('hl')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/81
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/81'"/>
+</h1>
+    """)
+
+    
+def view_hm(request):
+    funcoes.add_visita('hm')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/82
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/82'"/>
+</h1>
+    """)
+
+    
+def view_hn(request):
+    funcoes.add_visita('hn')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/83
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/83'"/>
+</h1>
+    """)
+
+    
+def view_ho(request):
+    funcoes.add_visita('ho')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/84
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/84'"/>
+</h1>
+    """)
+
+    
+def view_hp(request):
+    funcoes.add_visita('hp')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/85
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/85'"/>
+</h1>
+    """)
+
+    
+def view_hq(request):
+    funcoes.add_visita('hq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/86
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/86'"/>
+</h1>
+    """)
+
+    
+def view_hr(request):
+    funcoes.add_visita('hr')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/87
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/87'"/>
+</h1>
+    """)
+
+    
+def view_hs(request):
+    funcoes.add_visita('hs')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/88
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/88'"/>
+</h1>
+    """)
+
+    
+def view_ht(request):
+    funcoes.add_visita('ht')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/89
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/89'"/>
+</h1>
+    """)
+
+    
+def view_hu(request):
+    funcoes.add_visita('hu')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/90
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/90'"/>
+</h1>
+    """)
+
+    
+def view_hv(request):
+    funcoes.add_visita('hv')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/91
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/91'"/>
+</h1>
+    """)
+
+    
+def view_hw(request):
+    funcoes.add_visita('hw')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/92
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/92'"/>
+</h1>
+    """)
+
+    
+def view_hx(request):
+    funcoes.add_visita('hx')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/93
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/93'"/>
+</h1>
+    """)
+
+    
+def view_hy(request):
+    funcoes.add_visita('hy')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/94
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/94'"/>
+</h1>
+    """)
+
+    
+def view_hz(request):
+    funcoes.add_visita('hz')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/95
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/95'"/>
+</h1>
+    """)
+
+    
+def view_hA(request):
+    funcoes.add_visita('hA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/96
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/96'"/>
+</h1>
+    """)
+
+    
+def view_hB(request):
+    funcoes.add_visita('hB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/97
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/97'"/>
+</h1>
+    """)
+
+    
+def view_hC(request):
+    funcoes.add_visita('hC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/98
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/98'"/>
+</h1>
+    """)
+
+    
+def view_hD(request):
+    funcoes.add_visita('hD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/99
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/99'"/>
+</h1>
+    """)
+
+    
+def view_hE(request):
+    funcoes.add_visita('hE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/100
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/100'"/>
+</h1>
+    """)
+
+    
+def view_hF(request):
+    funcoes.add_visita('hF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/101
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/101'"/>
+</h1>
+    """)
+
+    
+def view_hG(request):
+    funcoes.add_visita('hG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/102
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/102'"/>
+</h1>
+    """)
+
+    
+def view_hH(request):
+    funcoes.add_visita('hH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/103
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/103'"/>
+</h1>
+    """)
+
+    
+def view_hI(request):
+    funcoes.add_visita('hI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/104
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/104'"/>
+</h1>
+    """)
+
+    
+def view_hJ(request):
+    funcoes.add_visita('hJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/105
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/105'"/>
+</h1>
+    """)
+
+    
+def view_hK(request):
+    funcoes.add_visita('hK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/106
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/106'"/>
+</h1>
+    """)
+
+    
+def view_hL(request):
+    funcoes.add_visita('hL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/107
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/107'"/>
+</h1>
+    """)
+
+    
+def view_hM(request):
+    funcoes.add_visita('hM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/108
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/108'"/>
+</h1>
+    """)
+
+    
+def view_hN(request):
+    funcoes.add_visita('hN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/109
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/109'"/>
+</h1>
+    """)
+
+    
+def view_hO(request):
+    funcoes.add_visita('hO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/110
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/110'"/>
+</h1>
+    """)
+
+    
+def view_hP(request):
+    funcoes.add_visita('hP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/111
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/111'"/>
+</h1>
+    """)
+
+    
+def view_hQ(request):
+    funcoes.add_visita('hQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/112
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/112'"/>
+</h1>
+    """)
+
+    
+def view_hR(request):
+    funcoes.add_visita('hR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/113
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/113'"/>
+</h1>
+    """)
+
+    
+def view_hS(request):
+    funcoes.add_visita('hS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/114
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/114'"/>
+</h1>
+    """)
+
+    
+def view_hT(request):
+    funcoes.add_visita('hT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/115
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/115'"/>
+</h1>
+    """)
+
+    
+def view_hU(request):
+    funcoes.add_visita('hU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/116
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/116'"/>
+</h1>
+    """)
+
+    
+def view_hV(request):
+    funcoes.add_visita('hV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/117
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/117'"/>
+</h1>
+    """)
+
+    
+def view_hW(request):
+    funcoes.add_visita('hW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/118
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/118'"/>
+</h1>
+    """)
+
+    
+def view_hX(request):
+    funcoes.add_visita('hX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/119
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/119'"/>
+</h1>
+    """)
+
+    
+def view_hY(request):
+    funcoes.add_visita('hY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/120
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/120'"/>
+</h1>
+    """)
+
+    
+def view_hZ(request):
+    funcoes.add_visita('hZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/121
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/121'"/>
+</h1>
+    """)
+
+    
+def view_i0(request):
+    funcoes.add_visita('i0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/122
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/122'"/>
+</h1>
+    """)
+
+    
+def view_i1(request):
+    funcoes.add_visita('i1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/123
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/123'"/>
+</h1>
+    """)
+
+    
+def view_i2(request):
+    funcoes.add_visita('i2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/124
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/124'"/>
+</h1>
+    """)
+
+    
+def view_i3(request):
+    funcoes.add_visita('i3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/125
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/125'"/>
+</h1>
+    """)
+
+    
+def view_i4(request):
+    funcoes.add_visita('i4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/1
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/1'"/>
+</h1>
+    """)
+
+    
+def view_i5(request):
+    funcoes.add_visita('i5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/2
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/2'"/>
+</h1>
+    """)
+
+    
+def view_i6(request):
+    funcoes.add_visita('i6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/3
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/3'"/>
+</h1>
+    """)
+
+    
+def view_i7(request):
+    funcoes.add_visita('i7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/4
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/4'"/>
+</h1>
+    """)
+
+    
+def view_i8(request):
+    funcoes.add_visita('i8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/5
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/5'"/>
+</h1>
+    """)
+
+    
+def view_i9(request):
+    funcoes.add_visita('i9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/6
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/6'"/>
+</h1>
+    """)
+
+    
+def view_ia(request):
+    funcoes.add_visita('ia')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/7
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/7'"/>
+</h1>
+    """)
+
+    
+def view_ib(request):
+    funcoes.add_visita('ib')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/8
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/8'"/>
+</h1>
+    """)
+
+    
+def view_ic(request):
+    funcoes.add_visita('ic')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/9
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/9'"/>
+</h1>
+    """)
+
+    
+def view_id(request):
+    funcoes.add_visita('id')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/10
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/10'"/>
+</h1>
+    """)
+
+    
+def view_ie(request):
+    funcoes.add_visita('ie')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/11
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/11'"/>
+</h1>
+    """)
+
+    
+def view_if(request):
+    funcoes.add_visita('if')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/12
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/12'"/>
+</h1>
+    """)
+
+    
+def view_ig(request):
+    funcoes.add_visita('ig')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/13
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/13'"/>
+</h1>
+    """)
+
+    
+def view_ih(request):
+    funcoes.add_visita('ih')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/14
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/14'"/>
+</h1>
+    """)
+
+    
+def view_ii(request):
+    funcoes.add_visita('ii')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/1
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/1'"/>
+</h1>
+    """)
+
+    
+def view_ij(request):
+    funcoes.add_visita('ij')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/2
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/2'"/>
+</h1>
+    """)
+
+    
+def view_ik(request):
+    funcoes.add_visita('ik')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/3
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/3'"/>
+</h1>
+    """)
+
+    
+def view_il(request):
+    funcoes.add_visita('il')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/4
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/4'"/>
+</h1>
+    """)
+
+    
+def view_im(request):
+    funcoes.add_visita('im')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/5
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/5'"/>
+</h1>
+    """)
+
+    
+def view_in(request):
+    funcoes.add_visita('in')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/6
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/6'"/>
+</h1>
+    """)
+
+    
+def view_io(request):
+    funcoes.add_visita('io')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/7
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/7'"/>
+</h1>
+    """)
+
+    
+def view_ip(request):
+    funcoes.add_visita('ip')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/8
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/8'"/>
+</h1>
+    """)
+
+    
+def view_iq(request):
+    funcoes.add_visita('iq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/9
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/9'"/>
+</h1>
+    """)
+
+    
+def view_ir(request):
+    funcoes.add_visita('ir')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/10
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/10'"/>
+</h1>
+    """)
+
+    
+def view_is(request):
+    funcoes.add_visita('is')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/11
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/11'"/>
+</h1>
+    """)
+
+    
+def view_it(request):
+    funcoes.add_visita('it')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/12
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/12'"/>
+</h1>
+    """)
+
+    
+def view_iu(request):
+    funcoes.add_visita('iu')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/13
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/13'"/>
+</h1>
+    """)
+
+    
+def view_iv(request):
+    funcoes.add_visita('iv')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/14
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/14'"/>
+</h1>
+    """)
+
+    
+def view_iw(request):
+    funcoes.add_visita('iw')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/15
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/15'"/>
+</h1>
+    """)
+
+    
+def view_ix(request):
+    funcoes.add_visita('ix')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/16
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/16'"/>
+</h1>
+    """)
+
+    
+def view_iy(request):
+    funcoes.add_visita('iy')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/17
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/17'"/>
+</h1>
+    """)
+
+    
+def view_iz(request):
+    funcoes.add_visita('iz')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/18
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/18'"/>
+</h1>
+    """)
+
+    
+def view_iA(request):
+    funcoes.add_visita('iA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/19
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/19'"/>
+</h1>
+    """)
+
+    
+def view_iB(request):
+    funcoes.add_visita('iB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/20
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/20'"/>
+</h1>
+    """)
+
+    
+def view_iC(request):
+    funcoes.add_visita('iC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/21
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/21'"/>
+</h1>
+    """)
+
+    
+def view_iD(request):
+    funcoes.add_visita('iD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/22
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/22'"/>
+</h1>
+    """)
+
+    
+def view_iE(request):
+    funcoes.add_visita('iE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/23
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/23'"/>
+</h1>
+    """)
+
+    
+def view_iF(request):
+    funcoes.add_visita('iF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/24
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/24'"/>
+</h1>
+    """)
+
+    
+def view_iG(request):
+    funcoes.add_visita('iG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/25
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/25'"/>
+</h1>
+    """)
+
+    
+def view_iH(request):
+    funcoes.add_visita('iH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/26
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/26'"/>
+</h1>
+    """)
+
+    
+def view_iI(request):
+    funcoes.add_visita('iI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/27
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/27'"/>
+</h1>
+    """)
+
+    
+def view_iJ(request):
+    funcoes.add_visita('iJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/28
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/28'"/>
+</h1>
+    """)
+
+    
+def view_iK(request):
+    funcoes.add_visita('iK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/29
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/29'"/>
+</h1>
+    """)
+
+    
+def view_iL(request):
+    funcoes.add_visita('iL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/30
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/30'"/>
+</h1>
+    """)
+
+    
+def view_iM(request):
+    funcoes.add_visita('iM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/31
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/31'"/>
+</h1>
+    """)
+
+    
+def view_iN(request):
+    funcoes.add_visita('iN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/32
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/32'"/>
+</h1>
+    """)
+
+    
+def view_iO(request):
+    funcoes.add_visita('iO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/33
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/33'"/>
+</h1>
+    """)
+
+    
+def view_iP(request):
+    funcoes.add_visita('iP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/34
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/34'"/>
+</h1>
+    """)
+
+    
+def view_iQ(request):
+    funcoes.add_visita('iQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/35
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/35'"/>
+</h1>
+    """)
+
+    
+def view_iR(request):
+    funcoes.add_visita('iR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/36
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/36'"/>
+</h1>
+    """)
+
+    
+def view_iS(request):
+    funcoes.add_visita('iS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/37
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/37'"/>
+</h1>
+    """)
+
+    
+def view_iT(request):
+    funcoes.add_visita('iT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/38
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/38'"/>
+</h1>
+    """)
+
+    
+def view_iU(request):
+    funcoes.add_visita('iU')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/39
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/39'"/>
+</h1>
+    """)
+
+    
+def view_iV(request):
+    funcoes.add_visita('iV')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/40
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/40'"/>
+</h1>
+    """)
+
+    
+def view_iW(request):
+    funcoes.add_visita('iW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/41
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/41'"/>
+</h1>
+    """)
+
+    
+def view_iX(request):
+    funcoes.add_visita('iX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/42
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/42'"/>
+</h1>
+    """)
+
+    
+def view_iY(request):
+    funcoes.add_visita('iY')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/43
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/43'"/>
+</h1>
+    """)
+
+    
+def view_iZ(request):
+    funcoes.add_visita('iZ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/44
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/44'"/>
+</h1>
+    """)
+
+    
+def view_j0(request):
+    funcoes.add_visita('j0')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/45
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/45'"/>
+</h1>
+    """)
+
+    
+def view_j1(request):
+    funcoes.add_visita('j1')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/46
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/46'"/>
+</h1>
+    """)
+
+    
+def view_j2(request):
+    funcoes.add_visita('j2')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/47
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/47'"/>
+</h1>
+    """)
+
+    
+def view_j3(request):
+    funcoes.add_visita('j3')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/48
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/48'"/>
+</h1>
+    """)
+
+    
+def view_j4(request):
+    funcoes.add_visita('j4')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/49
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/49'"/>
+</h1>
+    """)
+
+    
+def view_j5(request):
+    funcoes.add_visita('j5')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/50
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/50'"/>
+</h1>
+    """)
+
+    
+def view_j6(request):
+    funcoes.add_visita('j6')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/51
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/51'"/>
+</h1>
+    """)
+
+    
+def view_j7(request):
+    funcoes.add_visita('j7')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/52
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/52'"/>
+</h1>
+    """)
+
+    
+def view_j8(request):
+    funcoes.add_visita('j8')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/53
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/53'"/>
+</h1>
+    """)
+
+    
+def view_j9(request):
+    funcoes.add_visita('j9')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/54
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/54'"/>
+</h1>
+    """)
+
+    
+def view_ja(request):
+    funcoes.add_visita('ja')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/55
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/55'"/>
+</h1>
+    """)
+
+    
+def view_jb(request):
+    funcoes.add_visita('jb')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/56
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/56'"/>
+</h1>
+    """)
+
+    
+def view_jc(request):
+    funcoes.add_visita('jc')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/57
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/57'"/>
+</h1>
+    """)
+
+    
+def view_jd(request):
+    funcoes.add_visita('jd')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/58
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/58'"/>
+</h1>
+    """)
+
+    
+def view_je(request):
+    funcoes.add_visita('je')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/59
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/59'"/>
+</h1>
+    """)
+
+    
+def view_jf(request):
+    funcoes.add_visita('jf')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/60
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/60'"/>
+</h1>
+    """)
+
+    
+def view_jg(request):
+    funcoes.add_visita('jg')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/61
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/61'"/>
+</h1>
+    """)
+
+    
+def view_jh(request):
+    funcoes.add_visita('jh')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/62
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/62'"/>
+</h1>
+    """)
+
+    
+def view_ji(request):
+    funcoes.add_visita('ji')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/63
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/63'"/>
+</h1>
+    """)
+
+    
+def view_jj(request):
+    funcoes.add_visita('jj')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/64
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/64'"/>
+</h1>
+    """)
+
+    
+def view_jk(request):
+    funcoes.add_visita('jk')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/65
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/65'"/>
+</h1>
+    """)
+
+    
+def view_jl(request):
+    funcoes.add_visita('jl')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/66
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/66'"/>
+</h1>
+    """)
+
+    
+def view_jm(request):
+    funcoes.add_visita('jm')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/67
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/67'"/>
+</h1>
+    """)
+
+    
+def view_jn(request):
+    funcoes.add_visita('jn')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/68
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/68'"/>
+</h1>
+    """)
+
+    
+def view_jo(request):
+    funcoes.add_visita('jo')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/69
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/69'"/>
+</h1>
+    """)
+
+    
+def view_jp(request):
+    funcoes.add_visita('jp')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/70
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/70'"/>
+</h1>
+    """)
+
+    
+def view_jq(request):
+    funcoes.add_visita('jq')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/71
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/71'"/>
+</h1>
+    """)
+
+    
+def view_jr(request):
+    funcoes.add_visita('jr')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/72
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/72'"/>
+</h1>
+    """)
+
+    
+def view_js(request):
+    funcoes.add_visita('js')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/73
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/73'"/>
+</h1>
+    """)
+
+    
+def view_jt(request):
+    funcoes.add_visita('jt')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/74
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/74'"/>
+</h1>
+    """)
+
+    
+def view_ju(request):
+    funcoes.add_visita('ju')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/75
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/75'"/>
+</h1>
+    """)
+
+    
+def view_jv(request):
+    funcoes.add_visita('jv')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/76
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/76'"/>
+</h1>
+    """)
+
+    
+def view_jw(request):
+    funcoes.add_visita('jw')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/77
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/77'"/>
+</h1>
+    """)
+
+    
+def view_jx(request):
+    funcoes.add_visita('jx')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/78
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/78'"/>
+</h1>
+    """)
+
+    
+def view_jy(request):
+    funcoes.add_visita('jy')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/79
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/79'"/>
+</h1>
+    """)
+
+    
+def view_jz(request):
+    funcoes.add_visita('jz')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/80
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/80'"/>
+</h1>
+    """)
+
+    
+def view_jA(request):
+    funcoes.add_visita('jA')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/81
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/81'"/>
+</h1>
+    """)
+
+    
+def view_jB(request):
+    funcoes.add_visita('jB')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/82
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/82'"/>
+</h1>
+    """)
+
+    
+def view_jC(request):
+    funcoes.add_visita('jC')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/83
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/83'"/>
+</h1>
+    """)
+
+    
+def view_jD(request):
+    funcoes.add_visita('jD')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/84
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/84'"/>
+</h1>
+    """)
+
+    
+def view_jE(request):
+    funcoes.add_visita('jE')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/85
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/85'"/>
+</h1>
+    """)
+
+    
+def view_jF(request):
+    funcoes.add_visita('jF')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/86
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/86'"/>
+</h1>
+    """)
+
+    
+def view_jG(request):
+    funcoes.add_visita('jG')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/87
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/87'"/>
+</h1>
+    """)
+
+    
+def view_jH(request):
+    funcoes.add_visita('jH')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/88
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/88'"/>
+</h1>
+    """)
+
+    
+def view_jI(request):
+    funcoes.add_visita('jI')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/89
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/89'"/>
+</h1>
+    """)
+
+    
+def view_jJ(request):
+    funcoes.add_visita('jJ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/90
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/90'"/>
+</h1>
+    """)
+
+    
+def view_jK(request):
+    funcoes.add_visita('jK')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/91
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/91'"/>
+</h1>
+    """)
+
+    
+def view_jL(request):
+    funcoes.add_visita('jL')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/92
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/92'"/>
+</h1>
+    """)
+
+    
+def view_jM(request):
+    funcoes.add_visita('jM')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/93
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/93'"/>
+</h1>
+    """)
+
+    
+def view_jN(request):
+    funcoes.add_visita('jN')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/94
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/94'"/>
+</h1>
+    """)
+
+    
+def view_jO(request):
+    funcoes.add_visita('jO')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/95
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/95'"/>
+</h1>
+    """)
+
+    
+def view_jP(request):
+    funcoes.add_visita('jP')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/96
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/96'"/>
+</h1>
+    """)
+
+    
+def view_jQ(request):
+    funcoes.add_visita('jQ')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/97
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/97'"/>
+</h1>
+    """)
+
+    
+def view_jR(request):
+    funcoes.add_visita('jR')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/98
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/98'"/>
+</h1>
+    """)
+
+    
+def view_jS(request):
+    funcoes.add_visita('jS')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/99
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/99'"/>
+</h1>
+    """)
+
+    
+def view_jT(request):
+    funcoes.add_visita('jT')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:https://www.linx.com.br/100
+<meta http-equiv="refresh" content="0; URL='https://www.linx.com.br/100'"/>
+</h1>
+    """)
+
+    

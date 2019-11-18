@@ -46,9 +46,10 @@ def criar_link_view(request):
 
 
 def teste_POST(request):
+    #a função post buga quando com mais de 100 requests
     if request.method == 'POST':
         a = 0
         while a < 100:
             a += 1
-            post(request, f'https://www.google.com/search?q={a}')
+            post(request, f'https://www.linx.com.br/{a}')
     return render(request,'teste.html')
