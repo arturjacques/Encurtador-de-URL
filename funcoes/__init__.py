@@ -160,7 +160,8 @@ def get_stats():
     dados_globais['topUrls'] = list()
     conn.close()
     for i in top_ids:
-        dados_globais['topUrls'].append(get_stats_id(i[0]))
+        dados_globais['topUrls'].append(json.loads(get_stats_id(i[0])))
+    dados_globais=json.dumps(dados_globais)
     return dados_globais
 
 
