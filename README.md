@@ -1,9 +1,12 @@
+Artur Jacques Nürnberg
+
 # Encurtador-de-URL
 
 Python 3.7.4
 Django 2.0.7
 
-(para testar no windows basta essas configurações em um ambiente virtual)
+para testar no windows basta essas configurações em um ambiente virtual e digitar
+python manage.py runserver
 
 --------------------------------------------------------------------------------------
 Ubuntu 
