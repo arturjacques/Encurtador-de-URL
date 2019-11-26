@@ -1,43 +1,76 @@
-Artur Jacques Nürnberg
+#Artur Jacques Nürnberg
 
-# Encurtador-de-URL
+#Encurtador-de-URL
+
+#Configurações da maquina que realizou a programação.
 
 Python 3.7.4
 Django 2.0.7
 
-para testar no windows basta essas configurações em um ambiente virtual e digitar
-python manage.py runserver
 
 --------------------------------------------------------------------------------------
-Ubuntu 
+#Ubuntu 
 
 Primeiramente instale ubuntu 14.04.06 em uma maquina virtual (utilizei o Oracle VM virtual box)
+Configuração da placa de rede em modo Bridge
 
-próximo passo 
+--------------------------------------------------------------------------------------
+#Ubuntu 14.04.06
 
-$sudo apt update
+#Anaconda
 
-instalar PPA
+instalando Anaconda
 
-$sudo apt-get install software-properties-common
+$cd /tmp
+$curl -O https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 
-Instalando Python 3.7
+Verificando Data Integrety 
 
-$ sudo add-apt-repository ppa:deadsnakes/ppa
-$ sudo apt-get update
-$ sudo apt-get install python3.7
+$sha256sum Anaconda3-2019.10-Linux-x86_64.sh
 
-instalando pip
+Instalando
 
-$sudo apt install python3-pip
+$bash Anaconda3-2019.10-Linux-x86_64.sh
 
-instalando dependências para instalação do Django
+ativando conda
 
-$sudo apt-get install python3-setuptools
+$source ~/.bashrc
 
-instalando SQLite
+Criando ambiente virtual
 
-$sudo apt-get install sqlite
+$conda create --name Django_env Python=3
 
-instalando Django
+Ativando ambiente
 
+$conda activate Django_env
+
+--------------------------------------------------------------------------------------
+#Instalando Django e realizando copia do repositório
+
+$pip install Django
+
+Instalando Git
+
+$sudo apt install git-all
+
+Clonando repositório
+
+$cd home/user
+$git clone https://github.com/arturjacques/Encurtador-de-URL
+
+intalando bibliotecas
+
+$pip install requests
+
+migrando
+
+$cd Encurtador-de-URL/
+$python manage.py migrate
+
+Inicializando (Em maquina virtual a rede deve estar em modo bridge)
+
+$ifconfig
+$python manage.py runserver <ip>:8000
+
+(após constatado que o server está funcionando deve-se ir em trydjango/settings.py e alterar as
+configurações de ALLOWED_HOSTS =['*'] para o IP da maquina)
