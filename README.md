@@ -75,6 +75,7 @@ $python manage.py migrate
 Inicializando (Em maquina virtual a rede deve estar em modo bridge)
 
 $ifconfig
+
 $python manage.py runserver <ip>:8000
 
 (após constatado que o server está funcionando deve-se ir em trydjango/settings.py e alterar as
