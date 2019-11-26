@@ -49,7 +49,7 @@ Ativando ambiente
 $conda activate Django_env
 
 
-Instalando Django e realizando copia do repositório
+Instalando Django e realizando cópia do repositório
 --------------------------------------------------------------------------------------
 
 $pip install Django
