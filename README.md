@@ -3,7 +3,10 @@ Artur Jacques Nürnberg
 Encurtador-de-URL
 ===
 
-#Configurações da maquina que realizou a programação.
+Esse programa tem como finalidade a criação de um página Web para criação de links encurtados.
+
+
+Configurações da maquina que realizou a programação.
 
 Python 3.7.4
 Django 2.0.7
