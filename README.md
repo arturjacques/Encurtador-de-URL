@@ -24,7 +24,7 @@ instalando Anaconda
 $cd /tmp
 $curl -O https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 
-Verificando Data Integrety 
+Verificando Data Integrity 
 
 $sha256sum Anaconda3-2019.10-Linux-x86_64.sh
 
