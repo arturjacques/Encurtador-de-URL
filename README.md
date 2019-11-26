@@ -1,6 +1,7 @@
-#Artur Jacques Nürnberg
+Artur Jacques Nürnberg
 
-#Encurtador-de-URL
+Encurtador-de-URL
+===
 
 #Configurações da maquina que realizou a programação.
 
@@ -8,16 +9,16 @@ Python 3.7.4
 Django 2.0.7
 
 
+Ubuntu 
 --------------------------------------------------------------------------------------
-#Ubuntu 
 
 Primeiramente instale ubuntu 14.04.06 em uma maquina virtual (utilizei o Oracle VM virtual box)
 Configuração da placa de rede em modo Bridge
 
---------------------------------------------------------------------------------------
-#Ubuntu 14.04.06
 
-#Anaconda
+Ubuntu 14.04.06
+--------------------------------------------------------------------------------------
+Anaconda
 
 instalando Anaconda
 
@@ -44,8 +45,9 @@ Ativando ambiente
 
 $conda activate Django_env
 
+
+Instalando Django e realizando copia do repositório
 --------------------------------------------------------------------------------------
-#Instalando Django e realizando copia do repositório
 
 $pip install Django
 
