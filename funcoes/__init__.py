@@ -12,8 +12,7 @@ def verificacao_site(link):
     :return: Retorna True se o site está no ar e False se está fora do ar ou não existe
     """
     try:
-        #a = requests.get(link)
-        return True
+        a = requests.get(link)
     except Exception:
         return False
     else:
