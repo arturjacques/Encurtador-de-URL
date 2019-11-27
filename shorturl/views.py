@@ -13608,3 +13608,25 @@ Location:http://pudim.com.br
     """)
 
     
+def view_jW(request):
+    funcoes.add_visita('jW')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://google.com
+<meta http-equiv="refresh" content="0; URL='http://google.com'"/>
+</h1>
+    """)
+
+    
+def view_jX(request):
+    funcoes.add_visita('jX')
+    return HttpResponse("""
+<h1>
+301 Redirect <br>
+Location:http://facebook.com
+<meta http-equiv="refresh" content="0; URL='http://facebook.com'"/>
+</h1>
+    """)
+
+    
